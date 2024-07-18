@@ -1,0 +1,1123 @@
+key,Section,Tab,Subtab,Area,Row,Col,Unit,Desc,value
+Input_CAES_hour_time,Balancing and Storage,Electricity,,Advanced CAES,,Average period (hours),Hours,,0.83062
+input_ElecStorProfitMargin,Balancing and Storage,Electricity,,Advanced CAES,,Define profit margin increase of Electricity Storage 2 in percent of min profit margin,,,0.83063
+input_eh2,Balancing and Storage,Electricity,,Critical Excess Electricity Production (CEEP),,4. Replacing boiler with electric heating in gr. 2 with maximum capacity,MW,,0.83051
+input_eh3,Balancing and Storage,Electricity,,Critical Excess Electricity Production (CEEP),,5. Replacing boiler with electric heating in gr. 3 with maximum capacity,MW,,0.83052
+input_chpgr3_cap_minimum,Balancing and Storage,Electricity,,Electric grid stabilisation requirements,,Minimum CHP in gr. 3,MW,,0.83016
+input_pp_cap_minimum,Balancing and Storage,Electricity,,Electric grid stabilisation requirements,,Minimum PP,MW,[cc] Min spinning thermal reserve,0.83017
+input_stabilisation_share_min,Balancing and Storage,Electricity,,Electric grid stabilisation requirements,,Minimum grid stabilisation share,Fraction,,0.83011
+input_stabilisation_share_V2G,Balancing and Storage,Electricity,,Electric grid stabilisation requirements,,Stabilisation share V2G,Fraction,Share of charge connection,0.83014
+input_stabilisation_share_chp2,Balancing and Storage,Electricity,,Electric grid stabilisation requirements,,Stabilisation share of CHP2,Fraction,,0.83012
+input_stabilisation_share_waste,Balancing and Storage,Electricity,,Electric grid stabilisation requirements,,Stabilisation share of Waste CHP,Fraction,,0.83013
+input_stabilisation_share_TransmissionLine,Balancing and Storage,Electricity,,Electric grid stabilisation requirements,,Stabilisation share transmission line,Fraction,Share of max capacity,0.83015
+input_cap_pump_el,Balancing and Storage,Electricity,,Electricity Storage 1,Charge,Capacity,MW,,0.83031
+input_eff_pump_el,Balancing and Storage,Electricity,,Electricity Storage 1,Charge,Efficiency,Fraction,,0.83032
+input_cap_turbine_el,Balancing and Storage,Electricity,,Electricity Storage 1,Discharge,Capacity,MW,,0.83034
+input_eff_turbine_el,Balancing and Storage,Electricity,,Electricity Storage 1,Discharge,Efficiency,Fraction,,0.83035
+input_CAES_fuel_ratio,Balancing and Storage,Electricity,,Electricity Storage 1,Fuel,Fuel Ratio,Ratio,Fuel ratio = fuel input / elctric output (for CAES technologies or simlar). [cc] What does that mean? It sounds like efficiency…,0.83036
+input_storage_pump_cap,Balancing and Storage,Electricity,,Electricity Storage 1,Storage,Capacity,GWh,,0.83033
+input_cap_pump_el2,Balancing and Storage,Electricity,,Electricity Storage 2,Charge,Capacity,MW,,0.83041
+input_eff_pump_el2,Balancing and Storage,Electricity,,Electricity Storage 2,Charge,Efficiency,Fraction,,0.83042
+input_cap_turbine_el2,Balancing and Storage,Electricity,,Electricity Storage 2,Discharge,Capacity,MW,,0.83044
+input_eff_turbine_el2,Balancing and Storage,Electricity,,Electricity Storage 2,Discharge,Efficiency,Fraction,,0.83045
+input_storage_pump_cap2,Balancing and Storage,Electricity,,Electricity Storage 2,Storage,Capacity,GWh,,0.83043
+input_cap_rock_el,Balancing and Storage,Electricity,,Rockbed Storage,Charge (electricity),Capacity,MW,,0.83021
+input_cap_rock_steam,Balancing and Storage,Electricity,,Rockbed Storage,Discharge (steam),Capacity,MW,,0.83023
+input_rock_store_cap,Balancing and Storage,Electricity,,Rockbed Storage,Storage,Capacity,GWh,,0.83025
+share_rock_store,Balancing and Storage,Electricity,,Rockbed Storage,,Share of PP1/CHP,Fraction,,0.83024
+input_rock_steam_output_eff,Balancing and Storage,Electricity,,Rockbed Storage,,Steam/fuel ratio,Ratio,,0.83026
+input_rock_store_loss,Balancing and Storage,Electricity,,Rockbed Storage,,Storage loss rate,Percent per hour,,0.83022
+Input_GasNetStorage,Balancing and Storage,Liquid and Gas Fuels,,Fuel Storage,Gas,Storage,GWh,,0.85011
+Input_MethanolNetStorage,Balancing and Storage,Liquid and Gas Fuels,,Fuel Storage,Methanol,Storage,GWh,,0.85013
+Input_OilNetStorage,Balancing and Storage,Liquid and Gas Fuels,,Fuel Storage,Oil,Storage,GWh,,0.85012
+input_HH_HP_StorageMaxCapLimit,Balancing and Storage,Thermal,,Individual Heat Pump Regulation,,Max loading when storage is empty corresponding to max. unloading when storage is full (given in share of max. heat demand),Fraction,,0.84021
+input_HH_HP_StorageMinCapLimit,Balancing and Storage,Thermal,,Individual Heat Pump Regulation,,Max loading when storage is full corresponding to max. unloading when storage is empty (given in share of max. heat demand),Fraction,,0.84022
+input_storage_gr2_cap,Balancing and Storage,Thermal,,Thermal Storage,,Group 2,GWh,,0.84011
+input_storage_gr3_cap,Balancing and Storage,Thermal,,Thermal Storage,,Group 3,GWh,,0.84012
+input_BrineShare,Demand,Desalination,,Desalination plant including pumps,Desalination,Brine share of salt water,m3/m3,,0.11024
+input_DesalinationPlantCapacity,Demand,Desalination,,Desalination plant including pumps,Desalination,Capacity,1000 m3 fresh water/hour,,0.11021
+input_DesalinationPlantEfficiency,Demand,Desalination,,Desalination plant including pumps,Desalination,Efficiency,kWh/m3 fresh water,,0.11022
+input_FreshWaterShare,Demand,Desalination,,Desalination plant including pumps,Desalination,Fresh water share of salt water,m3/m3,,0.11023
+FreshWaterDemand,Demand,Desalination,,Fresh water demand from desalination and storage,Fresh Water,Demand,Gm3/year,,0.11011
+Filnavn_Freshwater,Demand,Desalination,,Fresh water demand from desalination and storage,Fresh Water,Demand [Distribution],Distribution file,,d11011.txt
+input_FreshWaterPumpCapacity,Demand,Desalination,,Fresh water demand from desalination and storage,Fresh Water,Pump Actual Capacity,MW,,0.11014
+input_FreshWaterPumpEfficiency,Demand,Desalination,,Fresh water demand from desalination and storage,Fresh Water,Pump Efficiency,kWh/m3 water,,0.11013
+input_FreshWaterStorageCapacity,Demand,Desalination,,Fresh water demand from desalination and storage,Fresh Water,Storage,Mm3,,0.11012
+input_BrineEnergyEquivalent,Demand,Desalination,,Pump hydro energy storage,Brine,Energy equivalent of brine in storage,kWh/m3,,0.11036
+input_BrineStorageCapacity,Demand,Desalination,,Pump hydro energy storage,Brine,Storage,Mm3,,0.11035
+input_DesalinationPumpCapacity,Demand,Desalination,,Pump hydro energy storage,Pump,Capacity,MW,,0.11034
+input_DesalinationPumpEfficiency,Demand,Desalination,,Pump hydro energy storage,Pump,Efficiency,kWh/kWh,,0.11032
+input_DesalinationTurbineCapacity,Demand,Desalination,,Pump hydro energy storage,Turbine,Capacity,MW,,0.11033
+input_DesalinationTurbineEfficiency,Demand,Desalination,,Pump hydro energy storage,Turbine,Efficiency,kWh/kWh,,0.11031
+Input_add_el_TWh,Demand,Electricity,,Electricity Demand and Fixed Import/Export,Additional electricity demand,Energy,TWh/year,,112
+Filnavn_add_el,Demand,Electricity,,Electricity Demand and Fixed Import/Export,Additional electricity demand [Distribution],Change Distribution,Distribution file,,zero.txt
+Input_El_demand_cooling_share,Demand,Electricity,,Electricity Demand and Fixed Import/Export,Electric cooling (IF included),Energy,TWh/year,Subtract electric cooling using distribution from ‘cooling’ window,114
+Input_El_demand_elec_heating_share,Demand,Electricity,,Electricity Demand and Fixed Import/Export,Electric heating (IF included),Energy,TWh/year,Subtract electric heating using distribution from ‘individual’ window,113
+Input_el_demand_Twh,Demand,Electricity,,Electricity Demand and Fixed Import/Export,Electricity demand*,Energy,TWh/year,,111
+Filnavn_elbehov,Demand,Electricity,,Electricity Demand and Fixed Import/Export,Electricity demand* [Distribution],Change Distribution,Distribution file,,zero.txt
+input_AddExport_TWh,Demand,Electricity,,Electricity Demand and Fixed Import/Export,Fixed Import/Export,Energy,TWh/year,,121
+Filnavn_AddExport,Demand,Electricity,,Electricity Demand and Fixed Import/Export,Fixed Import/Export [Distribution],Change Distribution,Distribution file,,zero.txt
+input_flexible_day_TWh,Demand,Electricity,,Electricity Demand and Fixed Import/Export,Flexible demand (1 day),Energy,TWh/year,,115
+input_flexible_day_max,Demand,Electricity,,Electricity Demand and Fixed Import/Export,Flexible demand (1 day),Max-effect,MW,,116
+input_flexible_week_TWh,Demand,Electricity,,Electricity Demand and Fixed Import/Export,Flexible demand (1 week),Energy,TWh/year,,117
+input_flexible_week_max,Demand,Electricity,,Electricity Demand and Fixed Import/Export,Flexible demand (1 week),Max-effect,MW,,118
+input_flexible_4weeks_TWh,Demand,Electricity,,Electricity Demand and Fixed Import/Export,Flexible demand (4 weeks),Energy,TWh/year,,119
+input_flexible_4weeks_max,Demand,Electricity,,Electricity Demand and Fixed Import/Export,Flexible demand (4 weeks),Max-effect,MW,,120
+Filnavn_dh,Demand,Heating,,District Heating,District Heating [Distribution],Change Distribution,Distribution file,[cc] Not sure what this sets – output hours of all DH?,zero.txt
+input_dh_ann_loss_gr1,Demand,Heating,,District Heating,Group 1,Network Losses,Fraction,,0.0081
+input_dh_ann_gr1,Demand,Heating,,District Heating,Group 1,Production,TWh,"[cc] Row / col is flipped, because it makes more sense with naming convention",8031
+input_dh_ann_loss_gr2,Demand,Heating,,District Heating,Group 2,Network Losses,Fraction,,0.0082
+input_dh_ann_gr2,Demand,Heating,,District Heating,Group 2,Production,TWh,"[cc] Row / col is flipped, because it makes more sense with naming convention",8032
+input_dh_ann_loss_gr3,Demand,Heating,,District Heating,Group 3,Network Losses,Fraction,,0.0083
+input_dh_ann_gr3,Demand,Heating,,District Heating,Group 3,Production,TWh,"[cc] Row / col is flipped, because it makes more sense with naming convention",8033
+input_HH_bioboiler_eff,Demand,Heating,,Individual Heating,Biomass boiler,Efficiency Thermal,Fraction,,0.1004
+input_fuel_Households[4],Demand,Heating,,Individual Heating,Biomass boiler,Fuel Input,TWh,[cc] unit = ???,8004
+ Input_HH_Bioboiler_Storage,Demand,Heating,,Individual Heating,Biomass boiler,Heat Storage*,Days of heat demand,,8.004
+ input_HH_bioboiler_Solar,Demand,Heating,,Individual Heating,Biomass boiler,Solar Thermal Input,TWh,[cc] unit = ???,8024
+input_HH_bioboiler_SolarShare,Demand,Heating,,Individual Heating,Biomass boiler,Solar Thermal Share*,Fraction,Share of heat consumers with solar thermal,1.1024
+input_HH_BioCHP_CapLimit,Demand,Heating,,Individual Heating,Biomass micro CHP,Capacity Limit*,Share (0-10),The capacity limit of HP and CHP is given in share (between 0 and 10) of maximum heat demand,1.004
+input_HH_BioCHP_eff_el,Demand,Heating,,Individual Heating,Biomass micro CHP,Efficiency Electric,Fraction,,0.1012
+input_HH_BioCHP_eff_th,Demand,Heating,,Individual Heating,Biomass micro CHP,Efficiency Thermal,Fraction,,0.1007
+input_HH_BioCHP_heat,Demand,Heating,,Individual Heating,Biomass micro CHP,Heat Demand,TWh,,8012
+input_HH_BioCHP_storage,Demand,Heating,,Individual Heating,Biomass micro CHP,Heat Storage*,Days of heat demand,,8.007
+input_HH_BioCHP_solar,Demand,Heating,,Individual Heating,Biomass micro CHP,Solar Thermal Input,TWh,[cc] unit = ???,8027
+ input_HH_BioCHP_SolarShare,Demand,Heating,,Individual Heating,Biomass micro CHP,Solar Thermal Share*,Fraction,Share of heat consumers with solar thermal,1.1027
+input_HH_coalboiler_eff,Demand,Heating,,Individual Heating,Coal Boiler,Efficiency Thermal,Fraction,,0.1001
+input_fuel_Households[1],Demand,Heating,,Individual Heating,Coal Boiler,Fuel Input,TWh,[cc] unit = ???,8001
+ Input_HH_coalboiler_Storage,Demand,Heating,,Individual Heating,Coal Boiler,Heat Storage*,Days of heat demand,,8.001
+ input_HH_coalboiler_Solar,Demand,Heating,,Individual Heating,Coal Boiler,Solar Thermal Input,TWh,[cc] unit = ???,8021
+input_HH_coalboiler_SolarShare,Demand,Heating,,Individual Heating,Coal Boiler,Solar Thermal Share*,Fraction,Share of heat consumers with solar thermal,1.1021
+input_HH_EB_CapLimit,Demand,Heating,,Individual Heating,Electric heating,Capacity Limit*,Share (0-10),The capacity limit of HP and CHP is given in share (between 0 and 10) of maximum heat demand,1.006
+input_HH_EB_heat,Demand,Heating,,Individual Heating,Electric heating,Heat Demand,TWh,,8014
+input_HH_EB_storage,Demand,Heating,,Individual Heating,Electric heating,Heat Storage*,Days of heat demand,,8.009
+input_HH_EB_solar,Demand,Heating,,Individual Heating,Electric heating,Solar Thermal Input,TWh,[cc] unit = ???,8029
+ input_HH_EB_SolarShare,Demand,Heating,,Individual Heating,Electric heating,Solar Thermal Share*,Fraction,Share of heat consumers with solar thermal,1.1029
+input_HH_H2CHP_CapLimit,Demand,Heating,,Individual Heating,H2 micro CHP,Capacity Limit*,Share (0-10),The capacity limit of HP and CHP is given in share (between 0 and 10) of maximum heat demand,1.002
+input_HH_H2CHP_eff_el,Demand,Heating,,Individual Heating,H2 micro CHP,Efficiency Electric,Fraction,,0.101
+input_HH_H2CHP_eff_th,Demand,Heating,,Individual Heating,H2 micro CHP,Efficiency Thermal,Fraction,,0.1005
+input_HH_H2CHP_heat,Demand,Heating,,Individual Heating,H2 micro CHP,Heat Demand,TWh,,8010
+input_HH_H2CHP_storage,Demand,Heating,,Individual Heating,H2 micro CHP,Heat Storage*,Days of heat demand,,8.005
+input_HH_H2CHP_solar,Demand,Heating,,Individual Heating,H2 micro CHP,Solar Thermal Input,TWh,[cc] unit = ???,8025
+input_HH_H2CHP_SolarShare,Demand,Heating,,Individual Heating,H2 micro CHP,Solar Thermal Share*,Fraction,Share of heat consumers with solar thermal,1.1025
+Filnavn_individual_heatdemand,Demand,Heating,,Individual Heating,Heat Demand [Distribution],Change Distribution,Distribution file,,zero.txt
+input_HH_HP_CapLimit,Demand,Heating,,Individual Heating,Heat Pump,Capacity Limit*,Share (0-10),The capacity limit of HP and CHP is given in share (between 0 and 10) of maximum heat demand,1.005
+input_HH_HP_COP,Demand,Heating,,Individual Heating,Heat Pump,Efficiency Electric (COP),Fraction,,1.001
+input_HH_HP_heat,Demand,Heating,,Individual Heating,Heat Pump,Heat Demand,TWh,,8013
+input_HH_HP_storage,Demand,Heating,,Individual Heating,Heat Pump,Heat Storage*,Days of heat demand,,8.008
+input_HH_HP_solar,Demand,Heating,,Individual Heating,Heat Pump,Solar Thermal Input,TWh,[cc] unit = ???,8028
+ input_HH_HP_SolarShare,Demand,Heating,,Individual Heating,Heat Pump,Solar Thermal Share*,Fraction,Share of heat consumers with solar thermal,1.1028
+input_HH_ngasboiler_eff,Demand,Heating,,Individual Heating,Ngas boiler,Efficiency Thermal,Fraction,,0.1003
+input_fuel_Households[3],Demand,Heating,,Individual Heating,Ngas boiler,Fuel Input,TWh,[cc] unit = ???,8003
+ Input_HH_Ngasboiler_Storage,Demand,Heating,,Individual Heating,Ngas boiler,Heat Storage*,Days of heat demand,,8.003
+ input_HH_ngasboiler_Solar,Demand,Heating,,Individual Heating,Ngas boiler,Solar Thermal Input,TWh,[cc] unit = ???,8023
+input_HH_ngasboiler_SolarShare,Demand,Heating,,Individual Heating,Ngas boiler,Solar Thermal Share*,Fraction,Share of heat consumers with solar thermal,1.1023
+input_HH_NgasCHP_CapLimit,Demand,Heating,,Individual Heating,Ngas micro CHP,Capacity Limit*,Share (0-10),The capacity limit of HP and CHP is given in share (between 0 and 10) of maximum heat demand,1.003
+input_HH_NgasCHP_eff_el,Demand,Heating,,Individual Heating,Ngas micro CHP,Efficiency Electric,Fraction,,0.1011
+input_HH_NgasCHP_eff_th,Demand,Heating,,Individual Heating,Ngas micro CHP,Efficiency Thermal,Fraction,,0.1006
+input_HH_NgasCHP_heat,Demand,Heating,,Individual Heating,Ngas micro CHP,Heat Demand,TWh,,8011
+input_HH_NgasCHP_storage,Demand,Heating,,Individual Heating,Ngas micro CHP,Heat Storage*,Days of heat demand,,8.006
+input_HH_NgasCHP_solar,Demand,Heating,,Individual Heating,Ngas micro CHP,Solar Thermal Input,TWh,[cc] unit = ???,8026
+input_HH_NgasCHP_SolarShare,Demand,Heating,,Individual Heating,Ngas micro CHP,Solar Thermal Share*,Fraction,Share of heat consumers with solar thermal,1.1026
+input_HH_oilboiler_eff,Demand,Heating,,Individual Heating,Oil boiler,Efficiency Thermal,Fraction,,0.1002
+input_fuel_Households[2],Demand,Heating,,Individual Heating,Oil boiler,Fuel Input,TWh,[cc] unit = ???,8002
+ Input_HH_oilboiler_Storage,Demand,Heating,,Individual Heating,Oil boiler,Heat Storage*,Days of heat demand,,8.002
+ input_HH_oilboiler_Solar,Demand,Heating,,Individual Heating,Oil boiler,Solar Thermal Input,TWh,[cc] unit = ???,8022
+input_HH_oilboiler_SolarShare,Demand,Heating,,Individual Heating,Oil boiler,Solar Thermal Share*,Fraction,Share of heat consumers with solar thermal,1.1022
+Filnavn_individual_solar,Demand,Heating,,Individual Heating,Solar Thermal [Distribution],Change Distribution,Distribution file,[cc] Seems to be the output pattern for solar thermal,zero.txt
+input_Heatdemand_PerHouse,Demand,Heating,,Total Heat Demand,Demand Per Building*,,kWh/year,,8000
+input_bio_ann_losses,Demand,Industry and Fuel,,Industry and Other Fuel Consumption,Biomass,Fuel Losses,Fraction,"Fuel losses represent the energy lost while producing the fuel such as in refineries, own use, and transportation losses. For bioenergy, many of these are included in the biofuel production tabsheets. The fuel losses are expressed here as a percentage of the total fuel consumed at the end of the analysis. Hence, this loss is added onto the other fuel consumed.",0.704
+input_fuel_CSHP[4],Demand,Industry and Fuel,,Industry and Other Fuel Consumption,Biomass,Industry,TWh,,7004
+input_fuel_Various[4],Demand,Industry and Fuel,,Industry and Other Fuel Consumption,Biomass,Various*,TWh,"Various can include any fuels that have not been accounted for elsewhere, such as fuels for non-energy use",7014
+input_coal_ann_losses,Demand,Industry and Fuel,,Industry and Other Fuel Consumption,Coal,Fuel Losses,Fraction,"Fuel losses represent the energy lost while producing the fuel such as in refineries, own use, and transportation losses. For bioenergy, many of these are included in the biofuel production tabsheets. The fuel losses are expressed here as a percentage of the total fuel consumed at the end of the analysis. Hence, this loss is added onto the other fuel consumed.",0.701
+input_fuel_CSHP[1],Demand,Industry and Fuel,,Industry and Other Fuel Consumption,Coal,Industry,TWh,,7001
+input_fuel_Various[1],Demand,Industry and Fuel,,Industry and Other Fuel Consumption,Coal,Various*,TWh,"Various can include any fuels that have not been accounted for elsewhere, such as fuels for non-energy use",7011
+input_fuel_CSHP[6],Demand,Industry and Fuel,,Industry and Other Fuel Consumption,Hydrogen,Industry,TWh,,7005
+Filnavn_Industry_Hydrogen,Demand,Industry and Fuel,,Industry and Other Fuel Consumption,Hydrogen [Distribution],Change Distribution,Distribution file,,zero.txt
+input_gas_ann_losses,Demand,Industry and Fuel,,Industry and Other Fuel Consumption,Ngas,Fuel Losses,Fraction,"Fuel losses represent the energy lost while producing the fuel such as in refineries, own use, and transportation losses. For bioenergy, many of these are included in the biofuel production tabsheets. The fuel losses are expressed here as a percentage of the total fuel consumed at the end of the analysis. Hence, this loss is added onto the other fuel consumed.",0.703
+input_fuel_CSHP[3],Demand,Industry and Fuel,,Industry and Other Fuel Consumption,Ngas,Industry,TWh,,7003
+input_fuel_Various[3],Demand,Industry and Fuel,,Industry and Other Fuel Consumption,Ngas,Various*,TWh,"Various can include any fuels that have not been accounted for elsewhere, such as fuels for non-energy use",7013
+Filnavn_Industry_Ngas,Demand,Industry and Fuel,,Industry and Other Fuel Consumption,Ngas [Distribution],Change Distribution,Distribution file,,zero.txt
+input_oil_ann_losses,Demand,Industry and Fuel,,Industry and Other Fuel Consumption,Oil,Fuel Losses,Fraction,"Fuel losses represent the energy lost while producing the fuel such as in refineries, own use, and transportation losses. For bioenergy, many of these are included in the biofuel production tabsheets. The fuel losses are expressed here as a percentage of the total fuel consumed at the end of the analysis. Hence, this loss is added onto the other fuel consumed.",0.702
+input_fuel_CSHP[2],Demand,Industry and Fuel,,Industry and Other Fuel Consumption,Oil,Industry,TWh,,7002
+input_fuel_Various[2],Demand,Industry and Fuel,,Industry and Other Fuel Consumption,Oil,Various*,TWh,"Various can include any fuels that have not been accounted for elsewhere, such as fuels for non-energy use",7012
+input_V2G_Cap_Inv,Demand,Transport,,Electric Vehicle Specifications,Capacity of battery to grid connection,Power,MW,,6041
+input_V2G_Cap_Charge,Demand,Transport,,Electric Vehicle Specifications,Capacity of grid to battery connection,Power,MW,,687501
+Input_NH3_input,Demand,Transport,,Main,Ammonia (NH3),Electrofuel,TWh/year,,6026
+Input_BioDieselInput,Demand,Transport,,Main,Diesel / DME,Biofuel,TWh/year,,6012
+Input_SynDiesel,Demand,Transport,,Main,Diesel / DME,Electrofuel,TWh/year,,6022
+input_fuel_Transport[2],Demand,Transport,,Main,Diesel / DME,Fossil,TWh/year,,6002
+input_V2G_Eff_Inv,Demand,Transport,,Main,Efficiency (battery to grid),Share,Fraction,,0.6004
+input_V2G_Eff_Charge,Demand,Transport,,Main,Efficiency (grid to battery),Share,Fraction,,0.6003
+input_transport_TWh,Demand,Transport,,Main,Electricity (Dump Charge),Total,TWh/year,,6038
+Filnavn_transport,Demand,Transport,,Main,Electricity (Dump Charge) [Distribution],Change Distribution,Distribution file,,d613.txt
+input_transport_TWh_V2G,Demand,Transport,,Main,Electricity (Smart Charge),Total,TWh/year,,6039
+Filnavn_transport_V2G,Demand,Transport,,Main,Electricity (Smart Charge) [Distribution],Change Distribution,Distribution file,,d614.txt
+input_fuel_Transport[6],Demand,Transport,,Main,H2 (Produced by Electrolysers),Total,TWh/year,,6037
+Filnavn_transport_H2,Demand,Transport,,Main,H2 (Produced by Electrolysers) [Distribution],Change Distribution,Distribution file,,d612.txt
+Input_BioJPInput,Demand,Transport,,Main,JP (Jet Fuel),Biofuel,TWh/year,,6011
+Input_SynJP,Demand,Transport,,Main,JP (Jet Fuel),Electrofuel,TWh/year,,6021
+input_fuel_Transport[1],Demand,Transport,,Main,JP (Jet Fuel),Fossil,TWh/year,,6001
+input_fuel_Transport[9],Demand,Transport,,Main,LPG,Fossil,TWh/year,,6005
+input_V2G_MaxShare,Demand,Transport,,Main,Max. share of cars during peak demand,Share,Fraction,,0.6001
+input_fuel_Transport[3],Demand,Transport,,Main,Ngas* (Grid Gas),Fossil,TWh/year,,6004
+Filnavn_Transport_Ngas,Demand,Transport,,Main,Ngas* (Grid Gas) [Distribution],Change Distribution,Distribution file,,d611.txt
+Input_BioPetrolInput,Demand,Transport,,Main,Petrol / Methanol,Biofuel,TWh/year,,6013
+Input_SynPetrol,Demand,Transport,,Main,Petrol / Methanol,Electrofuel,TWh/year,,6023
+input_fuel_Transport[5],Demand,Transport,,Main,Petrol / Methanol,Fossil,TWh/year,,6003
+input_V2G_ConnectionShare,Demand,Transport,,Main,Share of parked cars grid connected,Share,Fraction,,0.6002
+input_CO2_CCS,Supply,CO2,,CCS and CCR: Carbon Capture and Storage or Recycling,CCS,CO2 captured by CCS,Mt,,0.82016
+input_CCS_El_PerUnit,Supply,CO2,,CCS and CCR: Carbon Capture and Storage or Recycling,CCS,Electricity Consumption (Per unit),MWh/t CO2,,0.82017
+Input_CCS_Capacity,Supply,CO2,,CCS and CCR: Carbon Capture and Storage or Recycling,CCS,Increase Capacity for Regulation to,MW,,0.82018
+input_fuel_CO2[1],Supply,CO2,,CO2 content in the fuels,Coal,CO2 Content,kg/GJ,,0.82011
+input_fuel_CO2[2],Supply,CO2,,CO2 content in the fuels,FuelOil Diesel Petrol/JP,CO2 Content,kg/GJ,,0.82012
+input_fuel_CO2[8],Supply,CO2,,CO2 content in the fuels,LPG,CO2 Content,kg/GJ,,0.82014
+input_fuel_CO2[3],Supply,CO2,,CO2 content in the fuels,Ngas,CO2 Content,kg/GJ,,0.82013
+input_fuel_CO2[9],Supply,CO2,,CO2 content in the fuels,Waste,CO2 Content,kg/GJ,,0.82015
+input_cap_pp2_el,Supply,Central Power Production,,Central  Power Plants,Condensing PP2,Capacity,MW-e,,4001
+input_eff_pp2_el,Supply,Central Power Production,,Central  Power Plants,Condensing PP2,Efficiency Electric,Fraction,,0.4001
+input_hydro_cap,Supply,Central Power Production,,Central  Power Plants,Dammed Hydro Power,Capacity,MW-e,,4005
+input_hydro_eff,Supply,Central Power Production,,Central  Power Plants,Dammed Hydro Power,Efficiency Electric,Fraction,,0.4007
+input_hydro_watersupply,Supply,Central Power Production,,Central  Power Plants,Dammed Hydro Water supply*,Capacity,TWh/year,These are hydro power plants with a dam. Hence the water can be stored if there is a storage capacity available behind the dam.,4004
+filnavn_hydro_water,Supply,Central Power Production,,Central  Power Plants,Dammed Hydro Water supply* [Distribution],Change Distribution,Distribution file,,d413.txt
+input_GeoPower_cap,Supply,Central Power Production,,Central  Power Plants,Geothermal power,Capacity,MW-e,,4003
+input_GeoPower_factor,Supply,Central Power Production,,Central  Power Plants,Geothermal power,Correction Factor,Fraction,,0.4006
+input_GeoPower_eff,Supply,Central Power Production,,Central  Power Plants,Geothermal power,Efficiency Electric,Fraction,,0.4005
+filnavn_GeoPower,Supply,Central Power Production,,Central  Power Plants,Geothermal power [Distribution],Change Distribution,Distribution file,,d412.txt
+input_nuclear_cap,Supply,Central Power Production,,Central  Power Plants,Nuclear,Capacity,MW-e,,4002
+input_Nuclear_factor,Supply,Central Power Production,,Central  Power Plants,Nuclear,Correction Factor,Fraction,,0.4003
+input_nuclear_eff,Supply,Central Power Production,,Central  Power Plants,Nuclear,Efficiency Electric,Fraction,,0.4002
+input_Nuclear_partload,Supply,Central Power Production,,Central  Power Plants,Nuclear,Nuclear partload,Fraction,Share of capacity – has to be activated in Regulation Strategy Tabsheet,0.4004
+filnavn_nuclear,Supply,Central Power Production,,Central  Power Plants,Nuclear [Distribution],Change Distribution,Distribution file,,d411.txt
+Filnavn_WishImportExport,Supply,Central Power Production,,Transmission line capacity,External wish for import export defined by hourly distribution,Change Distribution,Distribution file,,d414.txt
+input_max_imp_exp,Supply,Central Power Production,,Transmission line capacity*,Maximum imp./exp. cap,Capacity,MW,Total interconnector capacity to external electricity markets. Define market conditions in cost page.,4006
+input_fuel_Boiler2[4],Supply,Fuel Distribution,,Distribution of fuel,Boiler2,Biomass,Fraction,[cc] Confirm unit of fuel share…,0.9034
+input_fuel_Boiler2[1],Supply,Fuel Distribution,,Distribution of fuel,Boiler2,Coal,Fraction,[cc] Confirm unit of fuel share…,0.9031
+input_fuel_Boiler2[7],Supply,Fuel Distribution,,Distribution of fuel,Boiler2,Electrofuels,Fraction,[cc] Confirm unit of fuel share…,0.9035
+input_fuel_Boiler2[6],Supply,Fuel Distribution,,Distribution of fuel,Boiler2,Hydrogen,Fraction,[cc] Confirm unit of fuel share…,0.9036
+input_fuel_Boiler2[3],Supply,Fuel Distribution,,Distribution of fuel,Boiler2,Ngas,Fraction,[cc] Confirm unit of fuel share…,0.9033
+input_fuel_Boiler2[2],Supply,Fuel Distribution,,Distribution of fuel,Boiler2,Oil,Fraction,[cc] Confirm unit of fuel share…,0.9032
+input_fuel_Boiler3[4],Supply,Fuel Distribution,,Distribution of fuel,Boiler3,Biomass,Fraction,[cc] Confirm unit of fuel share…,0.9044
+input_fuel_Boiler3[1],Supply,Fuel Distribution,,Distribution of fuel,Boiler3,Coal,Fraction,[cc] Confirm unit of fuel share…,0.9041
+input_fuel_Boiler3[7],Supply,Fuel Distribution,,Distribution of fuel,Boiler3,Electrofuels,Fraction,[cc] Confirm unit of fuel share…,0.9045
+input_fuel_Boiler3[6],Supply,Fuel Distribution,,Distribution of fuel,Boiler3,Hydrogen,Fraction,[cc] Confirm unit of fuel share…,0.9046
+input_fuel_Boiler3[3],Supply,Fuel Distribution,,Distribution of fuel,Boiler3,Ngas,Fraction,[cc] Confirm unit of fuel share…,0.9043
+input_fuel_Boiler3[2],Supply,Fuel Distribution,,Distribution of fuel,Boiler3,Oil,Fraction,[cc] Confirm unit of fuel share…,0.9042
+input_fuel_chp2[1],Supply,Fuel Distribution,,Distribution of fuel,CHP2,Coal,Fraction,[cc] Confirm unit of fuel share…,0.9011
+input_fuel_chp3[1],Supply,Fuel Distribution,,Distribution of fuel,CHP3,Coal,Fraction,[cc] Confirm unit of fuel share…,0.9021
+input_fuel_chp2[2],Supply,Fuel Distribution,,Distribution of fuel,CHP2,Oil,Fraction,[cc] Confirm unit of fuel share…,0.9012
+input_fuel_chp2[3],Supply,Fuel Distribution,,Distribution of fuel,CHP2,Ngas,Fraction,[cc] Confirm unit of fuel share…,0.9013
+input_fuel_chp3[2],Supply,Fuel Distribution,,Distribution of fuel,CHP3,Oil,Fraction,[cc] Confirm unit of fuel share…,0.9022
+input_fuel_chp2[4],Supply,Fuel Distribution,,Distribution of fuel,CHP2,Biomass,Fraction,[cc] Confirm unit of fuel share…,0.9014
+input_fuel_chp3[3],Supply,Fuel Distribution,,Distribution of fuel,CHP3,Ngas,Fraction,[cc] Confirm unit of fuel share…,0.9023
+input_fuel_chp3[4],Supply,Fuel Distribution,,Distribution of fuel,CHP3,Biomass,Fraction,[cc] Confirm unit of fuel share…,0.9024
+input_fuel_chp2[7],Supply,Fuel Distribution,,Distribution of fuel,CHP2,Electrofuels,Fraction,[cc] Confirm unit of fuel share…,0.9015
+input_fuel_chp3[7],Supply,Fuel Distribution,,Distribution of fuel,CHP3,Electrofuels,Fraction,[cc] Confirm unit of fuel share…,0.9025
+input_fuel_chp2[6],Supply,Fuel Distribution,,Distribution of fuel,CHP2,Hydrogen,Fraction,[cc] Confirm unit of fuel share…,0.9016
+input_fuel_chp3[6],Supply,Fuel Distribution,,Distribution of fuel,CHP3,Hydrogen,Fraction,[cc] Confirm unit of fuel share…,0.9026
+input_fuel_dhp[4],Supply,Fuel Distribution,,Distribution of fuel,DHP,Biomass,Fraction,[cc] Confirm unit of fuel share…,0.9004
+input_fuel_dhp[1],Supply,Fuel Distribution,,Distribution of fuel,DHP,Coal,Fraction,[cc] Confirm unit of fuel share…,0.9001
+input_fuel_dhp[7],Supply,Fuel Distribution,,Distribution of fuel,DHP,Electrofuels,Fraction,[cc] Confirm unit of fuel share…,0.9005
+input_fuel_dhp[6],Supply,Fuel Distribution,,Distribution of fuel,DHP,Hydrogen,Fraction,[cc] Confirm unit of fuel share…,0.9006
+input_fuel_dhp[3],Supply,Fuel Distribution,,Distribution of fuel,DHP,Ngas,Fraction,[cc] Confirm unit of fuel share…,0.9003
+input_fuel_dhp[2],Supply,Fuel Distribution,,Distribution of fuel,DHP,Oil,Fraction,[cc] Confirm unit of fuel share…,0.9002
+input_fuel_PP[4],Supply,Fuel Distribution,,Distribution of fuel,PP1,Biomass,Fraction,[cc] Confirm unit of fuel share…,0.9054
+input_fuel_PP[1],Supply,Fuel Distribution,,Distribution of fuel,PP1,Coal,Fraction,[cc] Confirm unit of fuel share…,0.9051
+input_fuel_PP[7],Supply,Fuel Distribution,,Distribution of fuel,PP1,Electrofuels,Fraction,[cc] Confirm unit of fuel share…,0.9055
+input_fuel_pp[6],Supply,Fuel Distribution,,Distribution of fuel,PP1,Hydrogen,Fraction,[cc] Confirm unit of fuel share…,0.9056
+input_fuel_PP[3],Supply,Fuel Distribution,,Distribution of fuel,PP1,Ngas,Fraction,[cc] Confirm unit of fuel share…,0.9053
+input_fuel_PP[2],Supply,Fuel Distribution,,Distribution of fuel,PP1,Oil,Fraction,[cc] Confirm unit of fuel share…,0.9052
+input_fuel_PP2[4],Supply,Fuel Distribution,,Distribution of fuel,PP2,Biomass,Fraction,[cc] Confirm unit of fuel share…,0.9064
+input_fuel_PP2[1],Supply,Fuel Distribution,,Distribution of fuel,PP2,Coal,Fraction,[cc] Confirm unit of fuel share…,0.9061
+input_fuel_PP2[7],Supply,Fuel Distribution,,Distribution of fuel,PP2,Electrofuels,Fraction,[cc] Confirm unit of fuel share…,0.9065
+input_fuel_pp2[6],Supply,Fuel Distribution,,Distribution of fuel,PP2,Hydrogen,Fraction,[cc] Confirm unit of fuel share…,0.9066
+input_fuel_PP2[3],Supply,Fuel Distribution,,Distribution of fuel,PP2,Ngas,Fraction,[cc] Confirm unit of fuel share…,0.9063
+input_fuel_PP2[2],Supply,Fuel Distribution,,Distribution of fuel,PP2,Oil,Fraction,[cc] Confirm unit of fuel share…,0.9062
+input_eff_hp2_cop,Supply,Heat Only,,Compression Heat Pumps,Group 2,COP,Ratio,,2.016
+input_cap_hp2_el,Supply,Heat Only,,Compression Heat Pumps,Group 2,Electric Capacity,MW-e,,2015
+input_eff_hp3_cop,Supply,Heat Only,,Compression Heat Pumps,Group 3,COP,Ratio,,2.026
+input_cap_hp3_el,Supply,Heat Only,,Compression Heat Pumps,Group 3,Electric Capacity,MW-e,,2025
+input_geo_th_gr1,Supply,Heat Only,,Geothermal heat,Group 1,Geothermal heat,TWh/year,,2007
+input_geo_th_gr2,Supply,Heat Only,,Geothermal heat,Group 2,Geothermal heat,TWh/year,,2017
+input_geo_th_gr3,Supply,Heat Only,,Geothermal heat,Group 3,Geothermal heat,TWh/year,,2027
+Filnavn_Hour_file_geo,Supply,Heat Only,,Geothermal heat,Production [Distribution],Change Distribution,Distribution file,,d212.txt
+input_ind_surplus_heat1,Supply,Heat Only,,Industrial Excess Heat,Group 1,Industrial Excess Heat,TWh/year,,2008
+input_ind_surplus_heat2,Supply,Heat Only,,Industrial Excess Heat,Group 2,Industrial Excess Heat,TWh/year,,2018
+input_ind_surplus_heat3,Supply,Heat Only,,Industrial Excess Heat,Group 3,Industrial Excess Heat,TWh/year,,2028
+Filnavn_ind_surplus_heat,Supply,Heat Only,,Industrial Excess Heat,Production [Distribution],Change Distribution,Distribution file,,d213.txt
+input_solar_loss_gr1,Supply,Heat Only,,Solar Thermal,Group 1,Loss*,Fraction,Loss in percent of storage content.,0.2003
+input_solar_ann_gr1,Supply,Heat Only,,Solar Thermal,Group 1,Production,TWh/year,,2001
+input_solar_share_gr1,Supply,Heat Only,,Solar Thermal,Group 1,Share*,Fraction,Share of district heating demand with solar thermal.,0.2004
+input_solar_storage_gr1,Supply,Heat Only,,Solar Thermal,Group 1,Storage,GWh,,2002
+input_solar_loss_gr2,Supply,Heat Only,,Solar Thermal,Group 2,Loss*,Fraction,Loss in percent of storage content.,0.2013
+input_solar_ann_gr2,Supply,Heat Only,,Solar Thermal,Group 2,Production,TWh/year,,2011
+input_solar_share_gr2,Supply,Heat Only,,Solar Thermal,Group 2,Share*,Fraction,Share of district heating demand with solar thermal.,0.2014
+input_solar_storage_gr2,Supply,Heat Only,,Solar Thermal,Group 2,Storage,GWh,,2012
+input_solar_loss_gr3,Supply,Heat Only,,Solar Thermal,Group 3,Loss*,Fraction,Loss in percent of storage content.,0.2023
+input_solar_ann_gr3,Supply,Heat Only,,Solar Thermal,Group 3,Production,TWh/year,,2021
+input_solar_share_gr3,Supply,Heat Only,,Solar Thermal,Group 3,Share*,Fraction,Share of district heating demand with solar thermal.,0.2024
+input_solar_storage_gr3,Supply,Heat Only,,Solar Thermal,Group 3,Storage,GWh,,2022
+Filnavn_solar,Supply,Heat Only,,Solar Thermal,Production [Distribution],Change Distribution,Distribution file,,d211.txt
+input_eff_dhp_th,Supply,Heat and Electricity,,Boilers,Group 1,Boiler Efficiency,Fraction,,0.5002
+input_eff_boiler2_th,Supply,Heat and Electricity,,Boilers,Group 2,Boiler Efficiency,Fraction,,0.5012
+input_FixedBoiler2,Supply,Heat and Electricity,,Boilers,Group 2,Fixed Boiler share,Fraction,,0.5013
+input_cap_boiler2_th,Supply,Heat and Electricity,,Boilers,Group 2,Thermal Capacity,MJ/s,,5011
+input_eff_boiler3_th,Supply,Heat and Electricity,,Boilers,Group 3,Boiler Efficiency,Fraction,,0.5022
+input_FixedBoiler3,Supply,Heat and Electricity,,Boilers,Group 3,Fixed Boiler share,Fraction,,0.5023
+input_cap_boiler3_th,Supply,Heat and Electricity,,Boilers,Group 3,Thermal Capacity,MJ/s,,5021
+input_cap_chp2_el,Supply,Heat and Electricity,,Combined Heat and Power (CHP),Group 2,Electric Capacity,MW-e,,5025
+input_eff_chp2_el,Supply,Heat and Electricity,,Combined Heat and Power (CHP),Group 2,Electric Efficiency,Fraction,CHP Back Pressure Mode Operation*,0.5016
+input_cap_chp2_thermal,Supply,Heat and Electricity,,Combined Heat and Power (CHP),Group 2,Thermal Capacity (Manual),MJ/s,,1500
+input_eff_chp2_th,Supply,Heat and Electricity,,Combined Heat and Power (CHP),Group 2,Thermal Efficiency,Fraction,CHP Back Pressure Mode Operation*,0.5017
+input_cap_chp3_el,Supply,Heat and Electricity,,Combined Heat and Power (CHP),Group 3,Electric Capacity,MW-e,,5026
+input_cap_pp_el,Supply,Heat and Electricity,,Combined Heat and Power (CHP),Group 3,Electric Capacity (PP1),MW-e,,5024
+input_eff_chp3_el,Supply,Heat and Electricity,,Combined Heat and Power (CHP),Group 3,Electric Efficiency,Fraction,CHP Back Pressure Mode Operation*,0.5026
+input_eff_pp_el,Supply,Heat and Electricity,,Combined Heat and Power (CHP),Group 3,Electric Efficiency (PP1),Fraction,CHP Condensing Mode Operation*,0.5024
+input_cap_chp3_thermal,Supply,Heat and Electricity,,Combined Heat and Power (CHP),Group 3,Thermal Capacity (Manual),MJ/s,,5555
+input_eff_chp3_th,Supply,Heat and Electricity,,Combined Heat and Power (CHP),Group 3,Thermal Efficiency,Fraction,CHP Back Pressure Mode Operation*,0.5027
+Filnavn_cshp,Supply,Heat and Electricity,,Industrial CHP,CHP Heat Delivered [Distribution],Change Distribution,Distribution file,,d511.txt
+input_cshp_el_gr1,Supply,Heat and Electricity,,Industrial CHP,Group 1,CHP Electricity,TWh/year,,5027
+input_cshp_th_own_gr1,Supply,Heat and Electricity,,Industrial CHP,Group 1,CHP Heat Demand,TWh/year,,5227
+input_cshp_th_gr1,Supply,Heat and Electricity,,Industrial CHP,Group 1,CHP Heat Produced,TWh/year,,5127
+input_cshp_el_gr2,Supply,Heat and Electricity,,Industrial CHP,Group 2,CHP Electricity,TWh/year,,5028
+input_cshp_th_own_gr2,Supply,Heat and Electricity,,Industrial CHP,Group 2,CHP Heat Demand,TWh/year,,5228
+input_cshp_th_gr2,Supply,Heat and Electricity,,Industrial CHP,Group 2,CHP Heat Produced,TWh/year,,5128
+input_cshp_el_gr3,Supply,Heat and Electricity,,Industrial CHP,Group 3,CHP Electricity,TWh/year,,5029
+input_cshp_th_own_gr3,Supply,Heat and Electricity,,Industrial CHP,Group 3,CHP Heat Demand,TWh/year,,5229
+input_cshp_th_gr3,Supply,Heat and Electricity,,Industrial CHP,Group 3,CHP Heat Produced,TWh/year,,5129
+Input_BioDieselShare,Supply,Liquid and Gas Fuels,Biofuels,BioDiesel Plant,BioDiesel Plant,BioDiesel Share,Fraction,,0.77002
+Input_BioDieselBiomassShare,Supply,Liquid and Gas Fuels,Biofuels,BioDiesel Plant,BioDiesel Plant,Biomass Share,Fraction,,0.77003
+Filnavn_BioDiesel_Elec,Supply,Liquid and Gas Fuels,Biofuels,BioDiesel Plant,BioDiesel Plant,Change Distribution,Distribution file,,d77001.txt
+Input_BioDieselElecShare,Supply,Liquid and Gas Fuels,Biofuels,BioDiesel Plant,BioDiesel Plant,Electricity Share,Fraction,,0.77001
+Input_BioJPEff,Supply,Liquid and Gas Fuels,Biofuels,BioJP (Jet Petrol) Plant,BioJP (Jet Petrol) Plant,BioPetrol Efficiency,Fraction,,0.77024
+Filnavn_BioJP_dh,Supply,Liquid and Gas Fuels,Biofuels,BioJP (Jet Petrol) Plant,BioJP (Jet Petrol) Plant,Change Distribution,Distribution file,,d77003.txt
+Input_BioJPDH3Share,Supply,Liquid and Gas Fuels,Biofuels,BioJP (Jet Petrol) Plant,BioJP (Jet Petrol) Plant,DH gr. 3 Share,Fraction,,0.77027
+Input_BioJPElecShare,Supply,Liquid and Gas Fuels,Biofuels,BioJP (Jet Petrol) Plant,BioJP (Jet Petrol) Plant,Electricity Share,Fraction,,0.77021
+Input_BioJPFoodShare,Supply,Liquid and Gas Fuels,Biofuels,BioJP (Jet Petrol) Plant,BioJP (Jet Petrol) Plant,Food bi-product Efficiency,Fraction,,0.77025
+Input_BioJPFoodValue,Supply,Liquid and Gas Fuels,Biofuels,BioJP (Jet Petrol) Plant,BioJP (Jet Petrol) Plant,Price per MWh,Currency/MWh,,0.77026
+Input_BioJPSteamEff,Supply,Liquid and Gas Fuels,Biofuels,BioJP (Jet Petrol) Plant,BioJP (Jet Petrol) Plant,Steam Efficiency,Fraction,,0.77023
+Input_BioJPSteamShare,Supply,Liquid and Gas Fuels,Biofuels,BioJP (Jet Petrol) Plant,BioJP (Jet Petrol) Plant,Steam Share,Fraction,,0.77022
+Input_BioPetrolEff,Supply,Liquid and Gas Fuels,Biofuels,BioPetrol Plant,BioPetrol Plant,BioPetrol Efficiency,Fraction,,0.77014
+Filnavn_BioPetrol_dh,Supply,Liquid and Gas Fuels,Biofuels,BioPetrol Plant,BioPetrol Plant,Change Distribution,Distribution file,,d77002.txt
+Input_BioPetrolDH3Share,Supply,Liquid and Gas Fuels,Biofuels,BioPetrol Plant,BioPetrol Plant,DH gr. 3 Share,Fraction,,0.77017
+Input_BioPetrolElecShare,Supply,Liquid and Gas Fuels,Biofuels,BioPetrol Plant,BioPetrol Plant,Electricity Share,Fraction,,0.77011
+Input_BioPetrolFoodShare,Supply,Liquid and Gas Fuels,Biofuels,BioPetrol Plant,BioPetrol Plant,Food bi-product Efficiency,Fraction,,0.77015
+Input_BioPetrolFoodValue,Supply,Liquid and Gas Fuels,Biofuels,BioPetrol Plant,BioPetrol Plant,Price per MWh,Currency/MWh,,0.77016
+Input_BioPetrolSteamEff,Supply,Liquid and Gas Fuels,Biofuels,BioPetrol Plant,BioPetrol Plant,Steam Efficiency,Fraction,,0.77013
+Input_BioPetrolSteamShare,Supply,Liquid and Gas Fuels,Biofuels,BioPetrol Plant,BioPetrol Plant,Steam Share,Fraction,,0.77012
+input_Biogas_prod,Supply,Liquid and Gas Fuels,Biogases,Biogas Plant,Biogas Plant,Biogas,TWh/year,,0.78008
+Filnavn_Biogas_dh,Supply,Liquid and Gas Fuels,Biogases,Biogas Plant,Biogas Plant,DH [Distribution],Distribution file,,d78002.txt
+input_Biogas_dh1,Supply,Liquid and Gas Fuels,Biogases,Biogas Plant,Biogas Plant,DH gr. 1,???,,0.78004
+input_Biogas_dh2,Supply,Liquid and Gas Fuels,Biogases,Biogas Plant,Biogas Plant,DH gr. 2,???,,0.78005
+input_Biogas_dh3,Supply,Liquid and Gas Fuels,Biogases,Biogas Plant,Biogas Plant,DH gr. 3,???,,0.78006
+Input_BiogasSolidBiomassInput,Supply,Liquid and Gas Fuels,Biogases,Biogas Plant,Biogas Plant,Dry Biomass,TWh/year,,0.78001
+input_Biogas_elec,Supply,Liquid and Gas Fuels,Biogases,Biogas Plant,Biogas Plant,Electricity,???,,0.78003
+Filnavn_Biogas_elec,Supply,Liquid and Gas Fuels,Biogases,Biogas Plant,Biogas Plant,Electricity [Distribution],Distribution file,,d77001.txt
+input_BiogasToPyrolysis,Supply,Liquid and Gas Fuels,Biogases,Biogas Plant,Biogas Plant,Output to Pyrolysis,,,0.78007
+Filnavn_Biogas_prod,Supply,Liquid and Gas Fuels,Biogases,Biogas Plant,Biogas Plant,Production [Distribution],Distribution file,,d78003.txt
+Input_BiogasUpgradeEff,Supply,Liquid and Gas Fuels,Biogases,Biogas Plant,Biogas Plant,Upgrade to grid Efficiency,,,0.78009
+Input_BiogasWetBiomassInput,Supply,Liquid and Gas Fuels,Biogases,Biogas Plant,Biogas Plant,Wet Biomass,TWh/year,,0.78002
+Input_GasiBiomassInput,Supply,Liquid and Gas Fuels,Biogases,Gasification Plant,Gasification Plant,Biomass,TWh/year,,0.78011
+Input_GasiCapInput,Supply,Liquid and Gas Fuels,Biogases,Gasification Plant,Gasification Plant,Capacity,MW-Gas,,0.78016
+Input_GasiColdgasEff,Supply,Liquid and Gas Fuels,Biogases,Gasification Plant,Gasification Plant,Coldgas Efficiency,Fraction,,0.78015
+Filnavn_Gasi_dh,Supply,Liquid and Gas Fuels,Biogases,Gasification Plant,Gasification Plant,DH [Distribution],Distribution file,,d78004.txt
+Input_GasiDH3Share,Supply,Liquid and Gas Fuels,Biogases,Gasification Plant,Gasification Plant,DH gr. 3 Share,Fraction,,0.78017
+Input_GasiElecShare,Supply,Liquid and Gas Fuels,Biogases,Gasification Plant,Gasification Plant,Electricity Share,Fraction,,0.78012
+Input_GasiSteamEff,Supply,Liquid and Gas Fuels,Biogases,Gasification Plant,Gasification Plant,Steam Efficiency,Fraction,,0.78014
+Input_GasiSteamShare,Supply,Liquid and Gas Fuels,Biogases,Gasification Plant,Gasification Plant,Steam Share,Fraction,,0.78013
+Input_GasiUpgradeEff,Supply,Liquid and Gas Fuels,Biogases,Gasification Plant,Gasification Plant,Upgrade to grid Efficiency,,,0.78018
+Input_LiqMethan_eff,Supply,Liquid and Gas Fuels,Electrofuels,Biogas Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),LiqFuel,Efficiency,Fraction,,0.80061
+Input_LiqMethan_HydrogenShare,Supply,Liquid and Gas Fuels,Electrofuels,Biogas Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),LiqFuel,Hydrogen Share,,,0.80062
+Input_LiqMethanLiqFuel,Supply,Liquid and Gas Fuels,Electrofuels,Biogas Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),LiqFuel,Output,TWh/year,,0.80063
+Input_SynMethane_DHgr2_Share,Supply,Liquid and Gas Fuels,Electrofuels,Biogas Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),SynGridGas,DH gr. 2 (Share of Gas+Hydrogen),,,0.80054
+Input_SynMethane_DHgr3_Share,Supply,Liquid and Gas Fuels,Electrofuels,Biogas Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),SynGridGas,DH gr. 3 (Share of Gas+Hydrogen),,,0.80055
+Input_SynMethan_eff,Supply,Liquid and Gas Fuels,Electrofuels,Biogas Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),SynGridGas,Efficiency,Fraction,,0.80051
+Input_SynMethan_HydrogenShare,Supply,Liquid and Gas Fuels,Electrofuels,Biogas Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),SynGridGas,Hydrogen Share,,,0.80052
+Input_SynMethanSynGridGas,Supply,Liquid and Gas Fuels,Electrofuels,Biogas Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),SynGridGas,Output,TWh/year,,0.80053
+Input_LiqHydro_eff,Supply,Liquid and Gas Fuels,Electrofuels,Biomass Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),LiqFuel,Efficiency,Fraction,,0.80041
+Input_LiqHydro_HydrogenShare,Supply,Liquid and Gas Fuels,Electrofuels,Biomass Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),LiqFuel,Hydrogen Share,,,0.80042
+Input_LiqHydroLiqFuel,Supply,Liquid and Gas Fuels,Electrofuels,Biomass Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),LiqFuel,Output,TWh/year,,0.80043
+Input_SynHydro_DHgr2_Share,Supply,Liquid and Gas Fuels,Electrofuels,Biomass Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),SynGridGas,DH gr. 2 (Share of Gas+Hydrogen),,,0.80034
+Input_SynHydro_DHgr3_Share,Supply,Liquid and Gas Fuels,Electrofuels,Biomass Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),SynGridGas,DH gr. 3 (Share of Gas+Hydrogen),,,0.80035
+Input_SynHydro_eff,Supply,Liquid and Gas Fuels,Electrofuels,Biomass Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),SynGridGas,Efficiency,Fraction,,0.80031
+Input_SynHydro_HydrogenShare,Supply,Liquid and Gas Fuels,Electrofuels,Biomass Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),SynGridGas,Hydrogen Share,,,0.80032
+Input_SynHydroSynGridGas,Supply,Liquid and Gas Fuels,Electrofuels,Biomass Hydrogenation (Producing electrofuels from gasified biomass and hydrogen),SynGridGas,Output,TWh/year,,0.80033
+Input_CO2Hydro_DHgr2_Share,Supply,Liquid and Gas Fuels,Electrofuels,CO2 Hydrogenation (Producing electrofuels from CO2 and hydrogen),Carbon Recycling,DH gr. 2 (Share of fuel/gas output),Fraction,,0.80005
+Input_CO2Hydro_DHgr3_Share,Supply,Liquid and Gas Fuels,Electrofuels,CO2 Hydrogenation (Producing electrofuels from CO2 and hydrogen),Carbon Recycling,DH gr. 3 (Share of fuel/gas output),Fraction,,0.80006
+Input_CO2HydroSequestrationElecEff,Supply,Liquid and Gas Fuels,Electrofuels,CO2 Hydrogenation (Producing electrofuels from CO2 and hydrogen),Carbon Recycling,Elec/CO2,TWh/Mton,,0.80004
+Input_CO2HydroMaxCapacity,Supply,Liquid and Gas Fuels,Electrofuels,CO2 Hydrogenation (Producing electrofuels from CO2 and hydrogen),Carbon Recycling,Max Cap,ton CO2/hour,[cc] Max capture rate?,0.80007
+Input_LiqCO2HydroSequestrationCO2Eff,Supply,Liquid and Gas Fuels,Electrofuels,CO2 Hydrogenation (Producing electrofuels from CO2 and hydrogen),LiqFuel,CO2/Syngas,Mton/TWh,,0.80011
+Input_LiqCO2HydroHydrogenRatio,Supply,Liquid and Gas Fuels,Electrofuels,CO2 Hydrogenation (Producing electrofuels from CO2 and hydrogen),LiqFuel,Hydrogen (H2/SynGridGas),Twh/Twh,,0.80012
+Input_CO2HydroLiqFuel,Supply,Liquid and Gas Fuels,Electrofuels,CO2 Hydrogenation (Producing electrofuels from CO2 and hydrogen),LiqFuel,Output,TWh/year,,0.80013
+Input_CO2HydroSequestrationCO2Eff,Supply,Liquid and Gas Fuels,Electrofuels,CO2 Hydrogenation (Producing electrofuels from CO2 and hydrogen),SynGridGas,CO2/Syngas,Mton/TWh,,0.80001
+Input_CO2HydroHydrogenRatio,Supply,Liquid and Gas Fuels,Electrofuels,CO2 Hydrogenation (Producing electrofuels from CO2 and hydrogen),SynGridGas,Hydrogen (H2/SynGridGas),Twh/Twh,,0.80002
+Input_CO2HydroSynGridGas,Supply,Liquid and Gas Fuels,Electrofuels,CO2 Hydrogenation (Producing electrofuels from CO2 and hydrogen),SynGridGas,Output,TWh/year,,0.80003
+Input_SynDiesel_eff,Supply,Liquid and Gas Fuels,Electrofuels,Liquid electrofuel synthesis,DME,Efficiency,Fraction,,0.80073
+Input_SynJP_eff,Supply,Liquid and Gas Fuels,Electrofuels,Liquid electrofuel synthesis,ElectroJP,Efficiency,Fraction,,0.80071
+Input_SynPetrol_eff,Supply,Liquid and Gas Fuels,Electrofuels,Liquid electrofuel synthesis,Methanal,Efficiency,Fraction,,0.80072
+Input_H2NH3Eff,Supply,Liquid and Gas Fuels,Electrofuels,N2 Hydrogenation (Producing ammonia (NH3) from N2 and H2),NH3,H2/NH3,Twh/Twh,,0.80022
+Input_N2NH3Eff,Supply,Liquid and Gas Fuels,Electrofuels,N2 Hydrogenation (Producing ammonia (NH3) from N2 and H2),NH3,N2/NH3,Mton/TWh,,0.80021
+Input_NH3Output,Supply,Liquid and Gas Fuels,Electrofuels,N2 Hydrogenation (Producing ammonia (NH3) from N2 and H2),NH3,Output,TWh/year,,0.80023
+Input_NH3DH2Share,Supply,Liquid and Gas Fuels,Electrofuels,N2 Hydrogenation (Producing ammonia (NH3) from N2 and H2),Nitrogen capture,DH gr. 2 (Share of NH3 output),,,0.80025
+Input_NH3DH3Share,Supply,Liquid and Gas Fuels,Electrofuels,N2 Hydrogenation (Producing ammonia (NH3) from N2 and H2),Nitrogen capture,DH gr. 3 (Share of NH3 output),,,0.80026
+Input_ElecN2Eff,Supply,Liquid and Gas Fuels,Electrofuels,N2 Hydrogenation (Producing ammonia (NH3) from N2 and H2),Nitrogen capture,Elec/N2,TWh/Mton,,0.80024
+Input_NH3MaxCap,Supply,Liquid and Gas Fuels,Electrofuels,N2 Hydrogenation (Producing ammonia (NH3) from N2 and H2),Nitrogen capture,Max Cap,ton N2/hour,[cc] Max capture rate?,0.80027
+input_HTL_eff_BioPetrol,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,HTL: Hydrothermal Liquifaction,Bio Petrol/bio input,Efficiency,TWh/TWh,,0.81015
+input_HTL_eff_BioDiesel,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,HTL: Hydrothermal Liquifaction,BioDiesel/bio input,Efficiency,TWh/TWh,,0.81013
+input_HTL_eff_InputToBiogas,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,HTL: Hydrothermal Liquifaction,Biogas/bio input,Efficiency,TWh/TWh,,0.81018
+input_HTL_biomass,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,HTL: Hydrothermal Liquifaction,Biomass,Amount,TWh/year,[cc] input_HTL_biomass and input_RSC_Biomass appear to share variable,0.81001
+input_RSC_Biomass,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,HTL: Hydrothermal Liquifaction,Biomass,Amount,TWh/year,[cc] input_HTL_biomass and input_RSC_Biomass appear to share variable,0.81001
+input_HTL_eff_DHGr3,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,HTL: Hydrothermal Liquifaction,DH Gr. 3/bio input,Efficiency,TWh/TWh,,0.81017
+input_HTL_eff_Syngas,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,HTL: Hydrothermal Liquifaction,Gas/bio input,Efficiency,TWh/TWh,,0.81016
+input_HTL_eff_H2,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,HTL: Hydrothermal Liquifaction,H2/bio input,Efficiency,TWh/TWh,,0.81011
+input_HTL_eff_JP,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,HTL: Hydrothermal Liquifaction,JP/bio input,Efficiency,TWh/TWh,,0.81012
+input_HTL_eff_Methanol,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,HTL: Hydrothermal Liquifaction,Methanol/bio input,Efficiency,TWh/TWh,,0.81014
+input_HTL_Waste,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,HTL: Hydrothermal Liquifaction,Waste,Amount,TWh/year,[cc] input_HTL_Waste and input_RSC_Waste appear to share a variable,0.81002
+input_RSC_Waste,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,HTL: Hydrothermal Liquifaction,Waste,Amount,TWh/year,[cc] input_HTL_Waste and input_RSC_Waste appear to share a variable,0.81002
+input_Pyrolysis_eff_BioDiesel,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,Pyrolosis,Bio Diesel/bio,Efficiency,TWh/TWh,,0.81033
+input_Pyrolysis_eff_BioChar,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,Pyrolosis,Bio char/bio input,Efficiency,TWh/TWh,,0.81034
+input_Pyrolysis_Biomass,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,Pyrolosis,Biomass,Amount,TWh/year,,0.81021
+input_Pyrolysis_eff_JP,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,Pyrolosis,JP/bio input,Efficiency,TWh/TWh,,0.81032
+input_Pyrolysis_eff_BiocharToCO2,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,Pyrolosis,Mt. CO2/TWh Biochar,,Mt,,0.81035
+input_Pyrolysis_eff_Syngas,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,Pyrolosis,Syngas/bio input,Efficiency,TWh/TWh,,0.81031
+input_Pyrolysis_Waste,Supply,Liquid and Gas Fuels,HTL and Pyrolosis,Pyrolosis,Waste,Amount,TWh/year,,0.81022
+Input_TransElt_DHgr2_Share,Supply,Liquid and Gas Fuels,Hydrogen,Electrolysers,Hydrogen,Efficiency DH gr. 2,Fraction,,0.79003
+Input_TransElt_DHgr3_Share,Supply,Liquid and Gas Fuels,Hydrogen,Electrolysers,Hydrogen,Efficiency DH gr. 3,Fraction,,0.79004
+input_eff_ELTtrans_fuel,Supply,Liquid and Gas Fuels,Hydrogen,Electrolysers,Hydrogen,Efficiency fuel,Fraction,,0.79002
+input_HydrogenExport,Supply,Liquid and Gas Fuels,Hydrogen,Electrolysers,Hydrogen,Export,TWh/year,,0.79007
+input_HydrogenImport,Supply,Liquid and Gas Fuels,Hydrogen,Electrolysers,Hydrogen,Import,TWh/year,,0.79006
+input_cap_ELTtrans_el,Supply,Liquid and Gas Fuels,Hydrogen,Electrolysers,Hydrogen,Production Capacity,MW-e,,0.79001
+input_H2storage_trans_cap,Supply,Liquid and Gas Fuels,Hydrogen,Electrolysers,Hydrogen,Storage,GWh,,0.79005
+Filnavn_HydrogenExport,Supply,Liquid and Gas Fuels,Hydrogen,Electrolysers,Hydrogen Export,Change Distribution,Distribution file,,const.txt
+Filnavn_HydrogenImport,Supply,Liquid and Gas Fuels,Hydrogen,Electrolysers,Hydrogen Import,Change Distribution,Distribution file,,const.txt
+Input_CSP_Solar,Supply,Variable Renewable Electricity,,Concentrated Solar Power,CSP,Annual solar thermal input,MW,,3011
+Filnavn_CSP,Supply,Variable Renewable Electricity,,Concentrated Solar Power,CSP,Annual solar thermal input [Distribution],Distribution file,,d318.txt
+Input_CSP_Power_cap,Supply,Variable Renewable Electricity,,Concentrated Solar Power,CSP,Power capacity,MW-e,,3013
+Input_CSP_Power_eff,Supply,Variable Renewable Electricity,,Concentrated Solar Power,CSP,Power efficiency,Fraction,,0.3013
+input_CSP_stab_share,Supply,Variable Renewable Electricity,,Concentrated Solar Power,CSP,Stabilisation share,Fraction,,0.3014
+Input_CSP_Storage_cap,Supply,Variable Renewable Electricity,,Concentrated Solar Power,CSP,Storage capacity,GWh,,3012
+Input_CSP_Storage_eff,Supply,Variable Renewable Electricity,,Concentrated Solar Power,CSP,Storage efficiency (losses),Fraction,,0.3012
+input_RES1_capacity,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 1,Capacity,MW,,3001
+Filnavn_wave,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 1,Change Distribution,Distribution file,,d311.txt
+input_RES1_factor,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 1,Correction Factor,Fraction,,0.3011
+input_RES1_stab_share,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 1,Stabilisation share,Fraction,,0.3001
+input_RES2_capacity,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 2,Capacity,MW,,3002
+Filnavn_wind,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 2,Change Distribution,Distribution file,,d312.txt
+input_RES2_factor,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 2,Correction Factor,Fraction,,0.3012
+input_RES2_stab_share,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 2,Stabilisation share,Fraction,,0.3002
+input_RES3_capacity,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 3,Capacity,MW,,0
+Filnavn_pv,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 3,Change Distribution,Distribution file,,d313.txt
+input_RES3_factor,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 3,Correction Factor,Fraction,,0
+input_RES3_stab_share,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 3,Stabilisation share,Fraction,,0
+input_RES4_capacity,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 4,Capacity,MW,,0
+Filnavn_RES4,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 4,Change Distribution,Distribution file,,d314.txt
+input_RES4_factor,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 4,Correction Factor,Fraction,,0
+input_RES4_stab_share,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 4,Stabilisation share,Fraction,,0
+input_RES5_capacity,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 5,Capacity,MW,,0
+Filnavn_RES5,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 5,Change Distribution,Distribution file,,d315.txt
+input_RES5_factor,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 5,Correction Factor,Fraction,,0
+input_RES5_stab_share,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 5,Stabilisation share,Fraction,,0
+input_RES6_capacity,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 6,Capacity,MW,,0
+Filnavn_RES6,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 6,Change Distribution,Distribution file,,d316.txt
+input_RES6_factor,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 6,Correction Factor,Fraction,,0
+input_RES6_stab_share,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 6,Stabilisation share,Fraction,,0
+input_RES7_capacity,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 7,Capacity,MW,,0
+Filnavn_RES7,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 7,Change Distribution,Distribution file,,d317.txt
+input_RES7_factor,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 7,Correction Factor,Fraction,,0
+input_RES7_stab_share,Supply,Variable Renewable Electricity,,Variable Renewable Electricity,RES 7,Stabilisation share,Fraction,,0
+input_Waste2_eff_th_geo,Supply,Waste,,Geothermal operating by absorption heat pump on steam from waste CHP plants,Group 2,DH Production Efficiency,Fraction,,0.01061
+input_Waste2_eff_el_geo,Supply,Waste,,Geothermal operating by absorption heat pump on steam from waste CHP plants,Group 2,Electricity production Efficiency,Fraction,,0.01071
+input_Waste2_cop_GeoHP_steam,Supply,Waste,,Geothermal operating by absorption heat pump on steam from waste CHP plants,Group 2,Heat Pump (CHP) COP,Ratio,,0.01091
+input_Waste2_cop_GeoHP_steamstorage,Supply,Waste,,Geothermal operating by absorption heat pump on steam from waste CHP plants,Group 2,Heat Pump on steam from storage COP,Fraction,,0.01111
+input_Waste2_loss_steamstorage,Supply,Waste,,Geothermal operating by absorption heat pump on steam from waste CHP plants,Group 2,Steam Storage Loss (%),Fraction,,0.01101
+input_Waste2_eff_steam,Supply,Waste,,Geothermal operating by absorption heat pump on steam from waste CHP plants,Group 2,Steam for Heat Pump Efficiency,Fraction,,0.01081
+input_Waste2_cap_steamstorage,Supply,Waste,,Geothermal operating by absorption heat pump on steam from waste CHP plants,Group 2,Steam storage,GWh,,1011
+input_Waste3_eff_th_geo,Supply,Waste,,Geothermal operating by absorption heat pump on steam from waste CHP plants,Group 3,DH Production Efficiency,Fraction,,0.01062
+input_Waste3_eff_el_geo,Supply,Waste,,Geothermal operating by absorption heat pump on steam from waste CHP plants,Group 3,Electricity production Efficiency,Fraction,,0.01072
+input_Waste3_cop_GeoHP_steam,Supply,Waste,,Geothermal operating by absorption heat pump on steam from waste CHP plants,Group 3,Heat Pump (CHP) COP,Ratio,,0.01092
+input_Waste3_cop_GeoHP_steamstorage,Supply,Waste,,Geothermal operating by absorption heat pump on steam from waste CHP plants,Group 3,Heat Pump on steam from storage COP,Fraction,,0.01112
+input_Waste3_loss_steamstorage,Supply,Waste,,Geothermal operating by absorption heat pump on steam from waste CHP plants,Group 3,Steam Storage Loss (%),Fraction,,0.01102
+input_Waste3_eff_steam,Supply,Waste,,Geothermal operating by absorption heat pump on steam from waste CHP plants,Group 3,Steam for Heat Pump Efficiency,Fraction,,0.01082
+input_Waste3_cap_steamstorage,Supply,Waste,,Geothermal operating by absorption heat pump on steam from waste CHP plants,Group 3,Steam storage,GWh,,1012
+Filnavn_waste,Supply,Waste,,Waste Incineration,Distribution of Waste,Change Distribution,Distribution file,,d1111.txt
+input_Waste1_Eff_biofuelCHP,Supply,Waste,,Waste Incineration,Group 1,Biofuel CHP-Boiler Efficiency,Fraction,,0.01031
+input_Waste1_Eff_biofueltrans,Supply,Waste,,Waste Incineration,Group 1,Biofuel Transportation Efficiency,Fraction,,0.01021
+input_Waste1_Eff_th,Supply,Waste,,Waste Incineration,Group 1,DH Production Efficiency,Fraction,,0.01001
+input_Waste1_Eff_el,Supply,Waste,,Waste Incineration,Group 1,Electricity production Efficiency,Fraction,,0.01011
+input_Waste1_price_various,Supply,Waste,,Waste Incineration,Group 1,Income from Various*,Price/TWh,,0.01051
+input_Waste1_Eff_various,Supply,Waste,,Waste Incineration,Group 1,Various (Food etc.),Fraction,,0.01041
+input_Waste1_Waste,Supply,Waste,,Waste Incineration,Group 1,Waste input,TWh/year,,1001
+input_Waste2_Eff_biofuelCHP,Supply,Waste,,Waste Incineration,Group 2,Biofuel CHP-Boiler Efficiency,Fraction,,0.01032
+input_Waste2_Eff_biofueltrans,Supply,Waste,,Waste Incineration,Group 2,Biofuel Transportation Efficiency,Fraction,,0.01022
+input_Waste2_Eff_th,Supply,Waste,,Waste Incineration,Group 2,DH Production Efficiency,Fraction,,0.01002
+input_Waste2_Eff_el,Supply,Waste,,Waste Incineration,Group 2,Electricity production Efficiency,Fraction,,0.01012
+input_Waste2_price_various,Supply,Waste,,Waste Incineration,Group 2,Income from Various*,Price/TWh,,0.01052
+input_Waste2_Eff_various,Supply,Waste,,Waste Incineration,Group 2,Various (Food etc.),Fraction,,0.01042
+input_Waste2_Waste,Supply,Waste,,Waste Incineration,Group 2,Waste input,TWh/year,,1002
+input_Waste3_Eff_biofuelCHP,Supply,Waste,,Waste Incineration,Group 3,Biofuel CHP-Boiler Efficiency,Fraction,,0.01033
+input_Waste3_Eff_biofueltrans,Supply,Waste,,Waste Incineration,Group 3,Biofuel Transportation Efficiency,Fraction,,0.01023
+input_Waste3_Eff_th,Supply,Waste,,Waste Incineration,Group 3,DH Production Efficiency,Fraction,,0.01003
+input_Waste3_Eff_el,Supply,Waste,,Waste Incineration,Group 3,Electricity production Efficiency,Fraction,,0.01013
+input_Waste3_price_various,Supply,Waste,,Waste Incineration,Group 3,Income from Various*,Price/TWh,,0.01053
+input_Waste3_Eff_various,Supply,Waste,,Waste Incineration,Group 3,Various (Food etc.),Fraction,,0.01043
+input_Waste3_Waste,Supply,Waste,,Waste Incineration,Group 3,Waste input,TWh/year,,1003
+ input_FOM_CHP2,Cost,Investment and Fixed OM,Heat and Electricity,-,Small CHP units,Fixed OM,% Investment,,1.03
+ input_FOM_CHP3,Cost,Investment and Fixed OM,Heat and Electricity,-,Large CHP units,Fixed OM,% Investment,,1.06
+ input_FOM_HP2,Cost,Investment and Fixed OM,Heat and Electricity,-,Heat Pump Group 2,Fixed OM,% Investment,,1.18
+ input_FOM_HP3,Cost,Investment and Fixed OM,Heat and Electricity,-,Heat Pump Group 3,Fixed OM,% Investment,,1.21
+ input_FOM_Heatstorage2,Cost,Investment and Fixed OM,Heat and Electricity,-,Heat Storage CHP,Fixed OM,% Investment,,1.09
+ input_FOM_Heatstorage3,Cost,Investment and Fixed OM,Renewable Energy,-,CSP Solar Power,Fixed OM,% Investment,,2.42
+Button_WasteVar,,,,,,,,,Average
+CHP_gridstab_priority,,,,,,,,,false
+CapacityUnit,,,,,,,,,MW
+EmissionUnit,,,,,,,,,Mt
+EnergyUnit,,,,,,,,,TWh/year
+ExcessHeatToSolarStorage,,,,,,,,,False
+Filnavn_cooling_demand,,,,,,,,,Hour_distr-heat.txt
+Filnavn_cooling_netloss,,,,,,,,,const.txt
+Filnavn_naturalcooling_demand,,,,,,,,,Hour_distr-heat.txt
+Filnavn_prices,Cost,External Electricity Market,-,External Electricity Market Definition,Price Distribution,,Distribution,,Hour_nordpool.txt
+HydrogenImportCost,Cost,Fuel,-,Fuel Price,Hydrogen Import,-,Currency/Energy,,888
+Input_BiogasElt_DHgr2_Share,,,,,,,,,0
+Input_BiogasElt_DHgr3_Share,,,,,,,,,0.05
+Input_BiomassElt_DHgr2_Share,,,,,,,,,0
+Input_BiomassElt_DHgr3_Share,,,,,,,,,0.05
+Input_Button_Biomass,,,,,,,,,Variable
+Input_Button_Coal,,,,,,,,,Variable
+Input_Button_IndvHPStorage,,,,,,,,,Active
+Input_Button_Ngas,,,,,,,,,Variable
+Input_Button_Price,,,,,,,,,No
+Input_Button_PumpHydro,,,,,,,,,No
+Input_Button_oil,,,,,,,,,Variable
+Input_CO2Elt_DHgr2_Share,,,,,,,,,0
+Input_CO2Elt_DHgr3_Share,,,,,,,,,0.05
+Input_CO2HydroElectrolyserEff,,,,,,,,,0.73
+Input_Cooling_DHgr1_Heatdemand,,,,,,,,,0
+Input_Cooling_DHgr1_eff,,,,,,,,,2
+Input_Cooling_DHgr2_Heatdemand,,,,,,,,,0
+Input_Cooling_DHgr2_eff,,,,,,,,,2
+Input_Cooling_DHgr3_Heatdemand,,,,,,,,,0
+Input_Cooling_DHgr3_eff,,,,,,,,,2
+Input_Cooling_el_demand,,,,,,,,,0
+Input_Cooling_el_eff,,,,,,,,,2
+Input_FOM_BioDiesel,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Bio-Diesel plant,Fixed OM,% Investment,,3.15
+Input_FOM_BioJP,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Bio-JP plant,Fixed OM,% Investment,,3.21
+Input_FOM_BioPetrol,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Bio-Petrol plant,Fixed OM,% Investment,,3.18
+Input_FOM_BiogasUpgrade,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Biogas Upgrade,Fixed OM,% Investment,,3.09
+Input_FOM_CO2Hydro,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Carbon Recycling,Fixed OM,% Investment,,3.24
+Input_FOM_CSP,Cost,Investment and Fixed OM,Renewable Energy,-,Geothermal Heat,Fixed OM,% Investment,,2.18
+Input_FOM_Desalination,Cost,Investment and Fixed OM,Water,-,Desalination Plant,Fixed OM,% Investment,,7.03
+Input_FOM_GasNetStorage,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Gas Storage,Fixed OM,% Investment,,3.54
+Input_FOM_GasificationUpgrade,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Gasification Upgrade,Fixed OM,% Investment,,3.12
+Input_FOM_Interconnection,Cost,Investment and Fixed OM,Heat and Electricity,-,Interconnection,Fixed OM,% Investment,,1.39
+Input_FOM_LiqHydro,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Liquid Fuel synth (CO2),Fixed OM,% Investment,,3.3
+Input_FOM_LiqHydroBio,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Liquid Fuel synth (biomass),Fixed OM,% Investment,,3.36
+Input_FOM_LiqMethan,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Liquid Fuel synth (biogas),Fixed OM,% Investment,,3.42
+Input_FOM_MethanolNetStorage,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Methanol Storage,Fixed OM,% Investment,,3.6
+Input_FOM_N2_air,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Air Capture Unit (N2),Fixed OM,% Investment,,3.63
+Input_FOM_NH3,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Ammonia Production,Fixed OM,% Investment,,3.66
+Input_FOM_OilNetStorage,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Oil Storage,Fixed OM,% Investment,,3.57
+Input_FOM_SynFuel,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,JP Synthesis,Fixed OM,% Investment,,3.45
+Input_FOM_SynFuelDiesel,,,,,,,,,0
+Input_FOM_SynFuelPetrol,,,,,,,,,0
+Input_FOM_SynHydro,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Methanation (CO2),Fixed OM,% Investment,,3.27
+Input_FOM_SynHydroBio,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Methanation (biomass),Fixed OM,% Investment,,3.33
+Input_FOM_SynMethan,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Methanation (biogas),Fixed OM,% Investment,,3.39
+Input_FOM_Tidal,Cost,Investment and Fixed OM,Renewable Energy,-,Tidal Power,Fixed OM,% Investment,,2.15
+Input_FOM_WaterStorage,Cost,Investment and Fixed OM,Water,-,Water Storage,Fixed OM,% Investment,,7.06
+Input_FOM_geo_th,Cost,Investment and Fixed OM,Renewable Energy,-,Geothermal Electric,Fixed OM,% Investment,,2.36
+Input_FOM_ind_CHP_elec,Cost,Investment and Fixed OM,Heat and Electricity,-,Industrial CHP Electr.,Fixed OM,% Investment,,1.6
+Input_FOM_ind_CHP_heat,Cost,Investment and Fixed OM,Heat and Electricity,-,Industrial CHP Heat,Fixed OM,% Investment,,1.63
+Input_FOM_ind_surplus_heat,Cost,Investment and Fixed OM,Renewable Energy,-,Industrial Excess Heat,Fixed OM,% Investment,,2.45
+Input_FOM_transport_bicycles,Cost,Investment and Fixed OM,Road Vehicles,Bikes,Bicycles,Fixed OM,% Investment,,5.04
+Input_FOM_transport_conventional_cars,Cost,Investment and Fixed OM,Road Vehicles,Cars,Conventional Cars,Fixed OM,% Investment,,5.16
+Input_FOM_transport_diesel_busses,Cost,Investment and Fixed OM,Road Vehicles,Buses,Diesel Buses,Fixed OM,% Investment,,5.24
+Input_FOM_transport_diesel_trucks,Cost,Investment and Fixed OM,Road Vehicles,Trucks,Diesel Trucks,Fixed OM,% Investment,,5.32
+Input_FOM_transport_electric_busses,Cost,Investment and Fixed OM,Road Vehicles,Buses,DME Buses,Fixed OM,% Investment,,5.2
+Input_FOM_transport_electric_cars,Cost,Investment and Fixed OM,Road Vehicles,Cars,Electric Cars,Fixed OM,% Investment,,5.12
+Input_FOM_transport_electric_trucks,Cost,Investment and Fixed OM,Road Vehicles,Trucks,DME Trucks,Fixed OM,% Investment,,5.28
+Input_FOM_transport_motorbikes,Cost,Investment and Fixed OM,Road Vehicles,Bikes,Motorbikes,Fixed OM,% Investment,,5.08
+Input_FOM_transport_other_vehicles1,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_1,Fixed OM,% Investment,,6.04
+Input_FOM_transport_other_vehicles2,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_2,Fixed OM,% Investment,,6.08
+Input_FOM_transport_other_vehicles3,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_3,Fixed OM,% Investment,,6.12
+Input_FOM_transport_other_vehicles4,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_4,Fixed OM,% Investment,,6.16
+Input_FOM_transport_other_vehicles5,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_5,Fixed OM,% Investment,,6.2
+Input_HeatPumpRegulation,,,,,,,,,1
+Input_IncludeEB2,,,,,,,,,No
+Input_IncludeEB3,,,,,,,,,No
+Input_IndustryElt_DHgr2_Share,,,,,,,,,0
+Input_IndustryElt_DHgr3_Share,,,,,,,,,0.05
+Input_Inv_NH3,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Ammonia Production,Investment-per-Unit,Currency/Power,,3.64
+Input_Inv_geo_th,Cost,Investment and Fixed OM,Renewable Energy,-,Geothermal Heat,Investment-per-Unit,Currency/Unit,,2.34
+Input_Inv_ind_CHP_elec,Cost,Investment and Fixed OM,Heat and Electricity,-,Industrial CHP Electr.,Investment-per-Unit,Currency/Power,,1.58
+Input_Inv_ind_CHP_heat,Cost,Investment and Fixed OM,Heat and Electricity,-,Industrial CHP Heat,Investment-per-Unit,Currency/Power,,1.61
+Input_Inv_ind_surplus_heat,Cost,Investment and Fixed OM,Renewable Energy,-,Industrial Excess Heat,Investment-per-Unit,Currency/Unit,,2.43
+Input_Inv_transport_bicycles,Cost,Investment and Fixed OM,Road Vehicles,Bikes,Bicycles,Investment-per-Unit,Currency/Unit,,5.02
+Input_Inv_transport_conventional_cars,Cost,Investment and Fixed OM,Road Vehicles,Cars,Conventional Cars,Investment-per-Unit,Currency/Unit,,5.14
+Input_Inv_transport_diesel_busses,Cost,Investment and Fixed OM,Road Vehicles,Buses,Diesel Buses,Investment-per-Unit,Currency/Unit,,5.22
+Input_Inv_transport_diesel_trucks,Cost,Investment and Fixed OM,Road Vehicles,Trucks,Diesel Trucks,Investment-per-Unit,Currency/Unit,,5.3
+Input_Inv_transport_electric_busses,Cost,Investment and Fixed OM,Road Vehicles,Buses,DME Buses,Investment-per-Unit,Currency/Unit,,5.18
+Input_Inv_transport_electric_cars,Cost,Investment and Fixed OM,Road Vehicles,Cars,Electric Cars,Investment-per-Unit,Currency/Unit,,5.1
+Input_Inv_transport_electric_trucks,Cost,Investment and Fixed OM,Road Vehicles,Trucks,DME Trucks,Investment-per-Unit,Currency/Unit,,5.26
+Input_Inv_transport_motorbikes,Cost,Investment and Fixed OM,Road Vehicles,Bikes,Motorbikes,Investment-per-Unit,Currency/Unit,,5.06
+Input_Inv_transport_other_vehicles1,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_1,Investment-per-Unit,Currency/Unit,,6.02
+Input_Inv_transport_other_vehicles2,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_2,Investment-per-Unit,Currency/Unit,,6.06
+Input_Inv_transport_other_vehicles3,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_3,Investment-per-Unit,Currency/Unit,,6.1
+Input_Inv_transport_other_vehicles4,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_4,Investment-per-Unit,Currency/Unit,,6.14
+Input_Inv_transport_other_vehicles5,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_5,Investment-per-Unit,Currency/Unit,,6.18
+Input_NH3EltEff_fuel,,,,,,,,,0.73
+Input_NH3Elt_DH2_share,,,,,,,,,0
+Input_NH3Elt_DH3_share,,,,,,,,,0.05
+Input_NaturalCooling_DHgr1,,,,,,,,,0
+Input_NaturalCooling_DHgr2,,,,,,,,,0
+Input_NaturalCooling_DHgr3,,,,,,,,,0
+Input_Period_BioDiesel,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Bio-Diesel plant,Period,Years,,3
+Input_Period_BioJP,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Bio-JP plant,Period,Years,,3
+Input_Period_BioPetrol,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Bio-Petrol plant,Period,Years,,3
+Input_Period_BiogasUpgrade,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Biogas Upgrade,Period,Years,,3
+Input_Period_CO2Hydro,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Carbon Recycling,Period,Years,,3
+Input_Period_CSP,Cost,Investment and Fixed OM,Renewable Energy,-,CSP Solar Power,Period,Years,,2
+Input_Period_Desalination,Cost,Investment and Fixed OM,Water,-,Desalination Plant,Period,Years,,7
+Input_Period_GasNetStorage,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Gas Storage,Period,Years,,3
+Input_Period_GasificationUpgrade,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Gasification Upgrade,Period,Years,,3
+Input_Period_Interconnection,Cost,Investment and Fixed OM,Heat and Electricity,-,Interconnection,Period,Years,,1
+Input_Period_LiqHydro,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Liquid Fuel synth (CO2),Period,Years,,3
+Input_Period_MethanolNetStorage,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Methanol Storage,Period,Years,,3
+Input_Period_N2_air,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Air Capture Unit (N2),Period,Years,,3
+Input_Period_NH3,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Ammonia Production,Period,Years,,3
+Input_Period_OilNetStorage,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Oil Storage,Period,Years,,3
+Input_Period_SynFuel,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,JP Synthesis,Period,Years,,3
+Input_Period_SynHydro,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Methanation (CO2),Period,Years,,3
+Input_Period_Tidal,Cost,Investment and Fixed OM,Renewable Energy,-,Tidal Power,Period,Years,,2
+Input_Period_WaterStorage,Cost,Investment and Fixed OM,Water,-,Water Storage,Period,Years,,7
+Input_Period_geo_th,Cost,Investment and Fixed OM,Renewable Energy,-,Geothermal Heat,Period,Years,,2
+Input_Period_ind_CHP_elec,Cost,Investment and Fixed OM,Heat and Electricity,-,Industrial CHP Electr.,Period,Years,,1
+Input_Period_ind_CHP_heat,Cost,Investment and Fixed OM,Heat and Electricity,-,Industrial CHP Heat,Period,Years,,1
+Input_Period_ind_surplus_heat,Cost,Investment and Fixed OM,Renewable Energy,-,Industrial Excess Heat,Period,Years,,2
+Input_Period_transport_bicycles,Cost,Investment and Fixed OM,Road Vehicles,Bikes,Bicycles,Period,Years,,5
+Input_Period_transport_conventional_cars,Cost,Investment and Fixed OM,Road Vehicles,Cars,Conventional Cars,Period,Years,,5
+Input_Period_transport_diesel_busses,Cost,Investment and Fixed OM,Road Vehicles,Buses,Diesel Buses,Period,Years,,5
+Input_Period_transport_diesel_trucks,Cost,Investment and Fixed OM,Road Vehicles,Trucks,Diesel Trucks,Period,Years,,5
+Input_Period_transport_electric_busses,Cost,Investment and Fixed OM,Road Vehicles,Buses,DME Buses,Period,Years,,5
+Input_Period_transport_electric_cars,Cost,Investment and Fixed OM,Road Vehicles,Cars,Electric Cars,Period,Years,,5
+Input_Period_transport_electric_trucks,Cost,Investment and Fixed OM,Road Vehicles,Trucks,DME Trucks,Period,Years,,5
+Input_Period_transport_motorbikes,Cost,Investment and Fixed OM,Road Vehicles,Bikes,Motorbikes,Period,Years,,5
+Input_Period_transport_other_vehicles1,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_1,Period,Years,,6
+Input_Period_transport_other_vehicles2,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_2,Period,Years,,6
+Input_Period_transport_other_vehicles3,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_3,Period,Years,,6
+Input_Period_transport_other_vehicles4,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_4,Period,Years,,6
+Input_Period_transport_other_vehicles5,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_5,Period,Years,,6
+Input_RESZeroOrNegativePrices,,,,,,,,,2
+Input_Size_transport_bicycles,Cost,Investment and Fixed OM,Road Vehicles,Bikes,Bicycles,,,,11
+Input_Size_transport_conventional_cars,Cost,Investment and Fixed OM,Road Vehicles,Cars,Conventional Cars,,,,11
+Input_Size_transport_diesel_busses,Cost,Investment and Fixed OM,Road Vehicles,Buses,Diesel Buses,,,,11
+Input_Size_transport_diesel_trucks,Cost,Investment and Fixed OM,Road Vehicles,Trucks,Diesel Trucks,,,,11
+Input_Size_transport_electric_busses,Cost,Investment and Fixed OM,Road Vehicles,Buses,DME Buses,,,,11
+Input_Size_transport_electric_cars,Cost,Investment and Fixed OM,Road Vehicles,Cars,Electric Cars,,,,11
+Input_Size_transport_electric_trucks,Cost,Investment and Fixed OM,Road Vehicles,Trucks,DME Trucks,,,,11
+Input_Size_transport_motorbikes,Cost,Investment and Fixed OM,Road Vehicles,Bikes,Motorbikes,,,,11
+Input_Size_transport_other_vehicles1,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_1,,,,11
+Input_Size_transport_other_vehicles2,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_2,,,,11
+Input_Size_transport_other_vehicles3,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_3,,,,11
+Input_Size_transport_other_vehicles4,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_4,,,,11
+Input_Size_transport_other_vehicles5,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_5,,,,11
+Input_SynHydro_MaxCapacity,,,,,,,,,0
+Input_SynMethan_MaxCapacity,,,,,,,,,0
+Input_Tax_cars_indv,Cost,Fuel,-,Taxes on Electricity for Energy Conversion,Electric Cars,Individual Houses,,,62
+Input_Tax_eh_dh,Cost,Fuel,-,Taxes on Electricity for Energy Conversion,Electric Heating,DH Systems,,,31
+Input_Tax_eh_indv,Cost,Fuel,-,Taxes on Electricity for Energy Conversion,Electric Heating,Individual Houses,,,32
+Input_Tax_elt_dh,Cost,Fuel,-,Taxes on Electricity for Energy Conversion,Electrolysers,DH Systems,,,51
+Input_Tax_elt_indv,Cost,Fuel,-,Taxes on Electricity for Energy Conversion,Electrolysers,,,,52
+Input_Tax_hp_dh,Cost,Fuel,-,Taxes on Electricity for Energy Conversion,Heat Pumps,DH Systems,,,41
+Input_Tax_hp_indv,Cost,Fuel,-,Taxes on Electricity for Energy Conversion,Heat Pumps,,,,42
+Input_ThermalStorageRegulationGr2,,,,,,,,,Weekly
+Input_ThermalStorageRegulationGr3,,,,,,,,,Weekly
+Input_V2GRegulation,,,,,,,,,1
+Input_V2G_Hydro_Priotization,,,,,,,,,1
+Input_V2G_TechnicalRegulation,,,,,,,,,1
+Input_VC_eh_dh,Cost,Variable OM,-,District Heating and CHP systems,Electric Heating,-,Currency/Energy,,9.04
+Input_chp_thermal_cap_button,,,,,,,,,Auto
+Input_inv_BioDiesel,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Bio-Diesel plant,Investment-per-Unit,Currency/Power,,3.13
+Input_inv_BioJP,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Bio-JP plant,Investment-per-Unit,Currency/Power,,3.19
+Input_inv_BioPetrol,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Bio-Petrol plant,Investment-per-Unit,Currency/Power,,3.16
+Input_inv_BiogasUpgrade,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Biogas Upgrade,Investment-per-Unit,Currency/Power,,3.07
+Input_inv_CO2Hydro,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Carbon Recycling,Investment-per-Unit,Currency/Power,,3.22
+Input_inv_CSP,Cost,Investment and Fixed OM,Renewable Energy,-,CSP Solar Power,Investment-per-Unit,Currency/Unit,,2.16
+Input_inv_Desalination,Cost,Investment and Fixed OM,Water,-,Desalination Plant,Investment-per-Unit,Currency/Unit,,7.01
+Input_inv_GasNetStorage,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Gas Storage,Investment-per-Unit,Currency/Power,,3.52
+Input_inv_GasificationUpgrade,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Gasification Upgrade,Investment-per-Unit,Currency/Power,,3.1
+Input_inv_Interconnection,Cost,Investment and Fixed OM,Heat and Electricity,-,Interconnection,Investment-per-Unit,Currency/Power,,1.37
+Input_inv_LiqHydro,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Liquid Fuel synth (CO2),Investment-per-Unit,Currency/Power,,3.28
+Input_inv_LiqHydroBio,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Liquid Fuel synth (biomass),Investment-per-Unit,Currency/Power,,3.34
+Input_inv_LiqMethan,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Liquid Fuel synth (biogas),Investment-per-Unit,Currency/Power,,3.4
+Input_inv_MethanolNetStorage,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Methanol Storage,Investment-per-Unit,Currency/Power,,3.58
+Input_inv_N2_air,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Air Capture Unit (N2),Investment-per-Unit,Currency/Power,,3.61
+Input_inv_OilNetStorage,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Oil Storage,Investment-per-Unit,Currency/Power,,3.55
+Input_inv_SynFuel,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,JP Synthesis,Investment-per-Unit,Currency/Power,,3.43
+Input_inv_SynFuelDiesel,,,,,,,,,0
+Input_inv_SynFuelPetrol,,,,,,,,,0
+Input_inv_SynHydro,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Methanation (CO2),Investment-per-Unit,Currency/Power,,3.25
+Input_inv_SynHydroBio,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Methanation (biomass),Investment-per-Unit,Currency/Power,,3.31
+Input_inv_SynMethan,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Methanation (biogas),Investment-per-Unit,Currency/Power,,3.37
+Input_inv_Tidal,Cost,Investment and Fixed OM,Renewable Energy,-,Tidal Power,Investment-per-Unit,Currency/Unit,,2.13
+Input_inv_WaterStorage,Cost,Investment and Fixed OM,Water,-,Water Storage,Investment-per-Unit,Currency/Unit,,7.04
+Input_km_NH3,,,,,,,,,1.5
+Input_period_LiqHydroBio,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Liquid Fuel synth (biomass),Period,Years,,3
+Input_period_LiqMethan,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Liquid Fuel synth (biogas),Period,Years,,3
+Input_period_SynFuelDiesel,,,,,,,,,0
+Input_period_SynFuelPetrol,,,,,,,,,0
+Input_period_SynHydroBio,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Methanation (biomass),Period,Years,,3
+Input_period_SynMethan,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Methanation (biogas),Period,Years,,3
+Input_transys,,,,,,,,,1
+MaxElectricityMarketPrice,Cost,External Electricity Market,-,External Electricity Market response,Maximum Market Electricity Price,-,Currency/Energy,,11
+MinElectricityMarketPrice,Cost,External Electricity Market,-,External Electricity Market response,Minimum Market Electricity Price,-,Currency/Energy,,11
+MonetaryUnit,,,,,,,,,EUR
+NameRES1,,,,,,,,,Wind
+NameRES2,,,,,,,,,Photo Voltaic
+NameRES3,,,,,,,,,Wave Power
+NameRES4,,,,,,,,,River Hydro
+NameRES5,,,,,,,,,Tidal
+NameRES6,,,,,,,,,Wave Power
+NameRES7,,,,,,,,,CSP Solar Power
+TS_input[10],,,,,,,,,0
+TS_input[11],,,,,,,,,0
+TS_input[1],,,,,,,,,0
+TS_input[2],,,,,,,,,0
+TS_input[3],,,,,,,,,0
+TS_input[4],,,,,,,,,0
+TS_input[5],,,,,,,,,0
+TS_input[6],,,,,,,,,0
+TS_input[7],,,,,,,,,0
+TS_input[8],,,,,,,,,0
+TS_input[9],,,,,,,,,0
+ThermalStorageDays,,,,,,,,,14
+Various10Text,Cost,Investment and Fixed OM,Additional,-,Various_10,Various_Text,,,VARIOUS_10
+Various11Text,Cost,Investment and Fixed OM,Additional,-,Various_11,Various_Text,,,VARIOUS_11
+Various12Text,Cost,Investment and Fixed OM,Additional,-,Various_12,Various_Text,,,VARIOUS_12
+Various13Text,Cost,Investment and Fixed OM,Additional,-,Various_13,Various_Text,,,VARIOUS_13
+Various14Text,Cost,Investment and Fixed OM,Additional,-,Various_14,Various_Text,,,VARIOUS_14
+Various15Text,Cost,Investment and Fixed OM,Additional,-,Various_15,Various_Text,,,VARIOUS_15
+Various16Text,Cost,Investment and Fixed OM,Additional,-,Various_16,Various_Text,,,VARIOUS_16
+Various17Text,Cost,Investment and Fixed OM,Additional,-,Various_17,Various_Text,,,VARIOUS_17
+Various18Text,Cost,Investment and Fixed OM,Additional,-,Various_18,Various_Text,,,VARIOUS_18
+Various19Text,Cost,Investment and Fixed OM,Additional,-,Various_19,Various_Text,,,VARIOUS_19
+Various1Text,Cost,Investment and Fixed OM,Additional,-,Various_1,Various_Text,,,VARIOUS_1
+Various20Text,Cost,Investment and Fixed OM,Additional,-,Various_20,Various_Text,,,VARIOUS_20
+Various2Text,Cost,Investment and Fixed OM,Additional,-,Various_2,Various_Text,,,VARIOUS_2
+Various3Text,Cost,Investment and Fixed OM,Additional,-,Various_3,Various_Text,,,VARIOUS_3
+Various4Text,Cost,Investment and Fixed OM,Additional,-,Various_4,Various_Text,,,VARIOUS_4
+Various5Text,Cost,Investment and Fixed OM,Additional,-,Various_5,Various_Text,,,VARIOUS_5
+Various6Text,Cost,Investment and Fixed OM,Additional,-,Various_6,Various_Text,,,VARIOUS_6
+Various7Text,Cost,Investment and Fixed OM,Additional,-,Various_7,Various_Text,,,VARIOUS_7
+Various8Text,Cost,Investment and Fixed OM,Additional,-,Various_8,Various_Text,,,VARIOUS_8
+Various9Text,Cost,Investment and Fixed OM,Additional,-,Various_9,Various_Text,,,VARIOUS_9
+general_notesText,,,,,,,,,
+input_BioCHP_CH4,,,,,,,,,0
+input_BioCHP_N2O,,,,,,,,,0
+input_BioCHP_NO,,,,,,,,,0
+input_BioCHP_PM,,,,,,,,,0
+input_BioCHP_SO2,,,,,,,,,0
+input_Biogas_CH4,,,,,,,,,0
+input_Biogas_N2O,,,,,,,,,0
+input_Biogas_NO,,,,,,,,,0
+input_Biogas_PM,,,,,,,,,0
+input_Biogas_SO2,,,,,,,,,0
+input_CCS_Regulation_number,,,,,,,,,1
+input_CHP2_CH4,,,,,,,,,0
+input_CHP2_N2O,,,,,,,,,0
+input_CHP2_NO,,,,,,,,,0
+input_CHP2_PM,,,,,,,,,0
+input_CHP2_SO2,,,,,,,,,0
+input_CHP3_CH4,,,,,,,,,0
+input_CHP3_N2O,,,,,,,,,0
+input_CHP3_NO,,,,,,,,,0
+input_CHP3_PM,,,,,,,,,0
+input_CHP3_SO2,,,,,,,,,0
+input_CO2_price,Cost,General,-,CO2 Price,-,-,Currency/ton,,0.1
+input_CoolingChillers_eff,,,,,,,,,2
+input_Cooling_Chiller_network_loss,,,,,,,,,0
+input_Cooling_Chillers_demand,,,,,,,,,0
+input_Cooling_gr1_network_loss,,,,,,,,,0
+input_Cooling_gr2_network_loss,,,,,,,,,0
+input_Cooling_gr3_network_loss,,,,,,,,,0
+input_FOM_Biogas,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Biogas Plant,Fixed OM,% Investment,,3.03
+input_FOM_Boilers_dh,Cost,Investment and Fixed OM,Heat and Electricity,-,Boilers group 2 and 3,Fixed OM,% Investment,,1.27
+input_FOM_Boilers_dh_gr1,Cost,Investment and Fixed OM,Heat and Electricity,-,DHP Boiler Group 1,Fixed OM,% Investment,,1.24
+input_FOM_Boilers_indv,Cost,Investment and Fixed OM,Heat Infrastructure,-,Individual Boilers,Fixed OM,% Investment,,4.03
+input_FOM_CHP_indv,Cost,Investment and Fixed OM,Heat Infrastructure,-,Individual CHP,Fixed OM,% Investment,,4.06
+input_FOM_EB_indv,Cost,Investment and Fixed OM,Heat Infrastructure,-,Individual Electric Heat,Fixed OM,% Investment,,4.12
+input_FOM_EHgr2gr3,Cost,Investment and Fixed OM,Heat and Electricity,-,Electric Boilers group 2 and 3,Fixed OM,% Investment,,1.3
+input_FOM_Electrolyser,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Electrolyser,Fixed OM,% Investment,,3.48
+input_FOM_Gasi,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Gasification Plant,Fixed OM,% Investment,,3.06
+input_FOM_Geothermal,Cost,Investment and Fixed OM,Renewable Energy,-,Solar Heat Storage,Fixed OM,% Investment,,2.33
+input_FOM_HP_indv,Cost,Investment and Fixed OM,Heat Infrastructure,-,Individual Heat Pump,Fixed OM,% Investment,,4.09
+input_FOM_HydroPower,Cost,Investment and Fixed OM,Renewable Energy,-,Hydro Power,Fixed OM,% Investment,,2.24
+input_FOM_HydroPump,Cost,Investment and Fixed OM,Renewable Energy,-,Hydro Pump,Fixed OM,% Investment,,2.3
+input_FOM_HydroStorage,Cost,Investment and Fixed OM,Renewable Energy,-,Hydro Storage,Fixed OM,% Investment,,2.27
+input_FOM_HydrogenStorage,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Hydrogen Storage,Fixed OM,% Investment,,3.51
+input_FOM_Nuclear,Cost,Investment and Fixed OM,Heat and Electricity,-,Nuclear,Fixed OM,% Investment,,1.36
+input_FOM_PP,Cost,Investment and Fixed OM,Heat and Electricity,-,Large Power Pants,Fixed OM,% Investment,,1.33
+input_FOM_PV,Cost,Investment and Fixed OM,Renewable Energy,-,Solar Photovoltaic,Fixed OM,% Investment,,2.09
+input_FOM_Pump,Cost,Investment and Fixed OM,Heat and Electricity,-,Charge el1 storage,Fixed OM,% Investment,,1.42
+input_FOM_PumpStorage2,Cost,Investment and Fixed OM,Heat and Electricity,-,El2 storage capacity,Fixed OM,% Investment,,1.57
+input_FOM_PumpStorage,Cost,Investment and Fixed OM,Heat and Electricity,-,El1 storage capacity,Fixed OM,% Investment,,1.48
+input_FOM_RiverOffHydro,Cost,Investment and Fixed OM,Renewable Energy,-,River Hydro,Fixed OM,% Investment,,2.21
+input_FOM_SteamStorage,Cost,Investment and Fixed OM,Heat and Electricity,-,Rock Steam Storage,Fixed OM,% Investment,,1.66
+input_FOM_Turbine,Cost,Investment and Fixed OM,Heat and Electricity,-,Discharge el1 storage,Fixed OM,% Investment,,1.45
+input_FOM_Various10,Cost,Investment and Fixed OM,Additional,-,Various_10,Fixed OM,% Investment,,8.29
+input_FOM_Various11,Cost,Investment and Fixed OM,Additional,-,Various_11,Fixed OM,% Investment,,8.32
+input_FOM_Various12,Cost,Investment and Fixed OM,Additional,-,Various_12,Fixed OM,% Investment,,8.35
+input_FOM_Various13,Cost,Investment and Fixed OM,Additional,-,Various_13,Fixed OM,% Investment,,8.38
+input_FOM_Various14,Cost,Investment and Fixed OM,Additional,-,Various_14,Fixed OM,% Investment,,8.41
+input_FOM_Various15,Cost,Investment and Fixed OM,Additional,-,Various_15,Fixed OM,% Investment,,8.44
+input_FOM_Various16,Cost,Investment and Fixed OM,Additional,-,Various_16,Fixed OM,% Investment,,8.47
+input_FOM_Various17,Cost,Investment and Fixed OM,Additional,-,Various_17,Fixed OM,% Investment,,8.5
+input_FOM_Various18,Cost,Investment and Fixed OM,Additional,-,Various_18,Fixed OM,% Investment,,8.53
+input_FOM_Various19,Cost,Investment and Fixed OM,Additional,-,Various_19,Fixed OM,% Investment,,8.56
+input_FOM_Various1,Cost,Investment and Fixed OM,Additional,-,Various_1,Fixed OM,% Investment,,8.02
+input_FOM_Various20,Cost,Investment and Fixed OM,Additional,-,Various_20,Fixed OM,% Investment,,8.59
+input_FOM_Various2,Cost,Investment and Fixed OM,Additional,-,Various_2,Fixed OM,% Investment,,8.05
+input_FOM_Various3,Cost,Investment and Fixed OM,Additional,-,Various_3,Fixed OM,% Investment,,8.08
+input_FOM_Various4,Cost,Investment and Fixed OM,Additional,-,Various_4,Fixed OM,% Investment,,8.11
+input_FOM_Various5,Cost,Investment and Fixed OM,Additional,-,Various_5,Fixed OM,% Investment,,8.14
+input_FOM_Various6,Cost,Investment and Fixed OM,Additional,-,Various_6,Fixed OM,% Investment,,8.17
+input_FOM_Various7,Cost,Investment and Fixed OM,Additional,-,Various_7,Fixed OM,% Investment,,8.2
+input_FOM_Various8,Cost,Investment and Fixed OM,Additional,-,Various_8,Fixed OM,% Investment,,8.23
+input_FOM_Various9,Cost,Investment and Fixed OM,Additional,-,Various_9,Fixed OM,% Investment,,8.26
+input_FOM_Waste_CHP,Cost,Investment and Fixed OM,Heat and Electricity,-,Waste CHP,Fixed OM,% Investment,,1.12
+input_FOM_Wave,Cost,Investment and Fixed OM,Renewable Energy,-,Wave Power,Fixed OM,% Investment,,2.12
+input_FOM_Wind,Cost,Investment and Fixed OM,Renewable Energy,-,Wind,Fixed OM,% Investment,,2.03
+input_FOM_WindOffshore,Cost,Investment and Fixed OM,Renewable Energy,-,Wind Offshore,Fixed OM,% Investment,,2.06
+input_FOM_absorp_HP,Cost,Investment and Fixed OM,Heat and Electricity,-,Absorption HP (Waste),Fixed OM,% Investment,,1.15
+input_FOM_htl,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,HTL,Fixed OM,% Investment,,11
+input_FOM_pump2,Cost,Investment and Fixed OM,Heat and Electricity,-,Charge el2 storage,Fixed OM,% Investment,,1.51
+input_FOM_pyr,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Pyrolosis,Fixed OM,% Investment,,11
+input_FOM_solar_dh,Cost,Investment and Fixed OM,Renewable Energy,-,Solar Thermal,Fixed OM,% Investment,,2.39
+input_FOM_solar_indv,Cost,Investment and Fixed OM,Heat Infrastructure,-,Individual Solar Thermal,Fixed OM,% Investment,,4.15
+input_FOM_turbine2,Cost,Investment and Fixed OM,Heat and Electricity,-,Discharge el2 storage,Fixed OM,% Investment,,1.54
+input_GasCHP_CH4,,,,,,,,,0
+input_GasCHP_N2O,,,,,,,,,0
+input_GasCHP_NO,,,,,,,,,0
+input_GasCHP_PM,,,,,,,,,0
+input_GasCHP_SO2,,,,,,,,,0
+input_Gasification_CH4,,,,,,,,,0
+input_Gasification_N2O,,,,,,,,,0
+input_Gasification_NO,,,,,,,,,0
+input_Gasification_PM,,,,,,,,,0
+input_Gasification_SO2,,,,,,,,,0
+input_H2CHP_CH4,,,,,,,,,0
+input_H2CHP_N2O,,,,,,,,,0
+input_H2CHP_NO,,,,,,,,,0
+input_H2CHP_PM,,,,,,,,,0
+input_H2CHP_SO2,,,,,,,,,0
+input_H2storage_CHPindv_cap,,,,,,,,,0
+input_H2storage_gr3_cap,,,,,,,,,0
+input_HHBio_CH4,,,,,,,,,0
+input_HHBio_N2O,,,,,,,,,0
+input_HHBio_NO,,,,,,,,,0
+input_HHBio_PM,,,,,,,,,0
+input_HHBio_SO2,,,,,,,,,0
+input_HHCoal_CH4,,,,,,,,,0
+input_HHCoal_N2O,,,,,,,,,0
+input_HHCoal_NO,,,,,,,,,0
+input_HHCoal_PM,,,,,,,,,0
+input_HHCoal_SO2,,,,,,,,,0
+input_HHGas_CH4,,,,,,,,,0
+input_HHGas_N2O,,,,,,,,,0
+input_HHGas_NO,,,,,,,,,0
+input_HHGas_PM,,,,,,,,,0
+input_HHGas_SO2,,,,,,,,,0
+input_HHOil_CH4,,,,,,,,,0
+input_HHOil_N2O,,,,,,,,,0
+input_HHOil_NO,,,,,,,,,0
+input_HHOil_PM,,,,,,,,,0
+input_HHOil_SO2,,,,,,,,,0
+input_Handling_BioCon[10],Cost,Fuel,-,Fuel Handling,Biomass conversion,Dry Biomass,,,18.1
+input_Handling_BioCon[11],Cost,Fuel,-,Fuel Handling,Biomass conversion,Wet Biomass,,,19.1
+input_Handling_BioCon[4],Cost,Fuel,-,Fuel Handling,Biomass conversion,Biomass,,,17.1
+input_Handling_Cen[1],Cost,Fuel,-,Fuel Handling,Central CHP and PP,Coal,,,10.1
+input_Handling_Cen[2],Cost,Fuel,-,Fuel Handling,Central CHP and PP,FuelOil,,,11.1
+input_Handling_Cen[3],Cost,Fuel,-,Fuel Handling,Central CHP and PP,Gas,,,14.1
+input_Handling_Cen[4],Cost,Fuel,-,Fuel Handling,Central CHP and PP,Biomass,,,17.2
+input_Handling_Cen[9],Cost,Fuel,-,Fuel Handling,Central CHP and PP,Waste,,,16.1
+input_Handling_Dec[1],Cost,Fuel,-,Fuel Handling,Decentralised CHP DH and Industry,Coal,,,10.2
+input_Handling_Dec[2],Cost,Fuel,-,Fuel Handling,Decentralised CHP DH and Industry,FuelOil,,,11.2
+input_Handling_Dec[3],Cost,Fuel,-,Fuel Handling,Decentralised CHP DH and Industry,Gas,,,14.2
+input_Handling_Dec[4],Cost,Fuel,-,Fuel Handling,Decentralised CHP DH and Industry,Biomass,,,17.3
+input_Handling_Dec[9],Cost,Fuel,-,Fuel Handling,Decentralised CHP DH and Industry,Waste,,,16.2
+input_Handling_Indv[1],Cost,Fuel,-,Fuel Handling,Individual Households,Coal,,,10.3
+input_Handling_Indv[2],Cost,Fuel,-,Fuel Handling,Individual Households,Diesel-Gasoil,,,12.1
+input_Handling_Indv[3],Cost,Fuel,-,Fuel Handling,Individual Households,Gas,,,14.3
+input_Handling_Indv[4],Cost,Fuel,-,Fuel Handling,Individual Households,Biomass,,,17.4
+input_Handling_Transp[1],Cost,Fuel,-,Fuel Handling,Transportation (air),Petrol-JP,,,13.2
+input_Handling_Transp[2],Cost,Fuel,-,Fuel Handling,Transportation (road and train),Diesel-Gasoil,,,12.2
+input_Handling_Transp[3],Cost,Fuel,-,Fuel Handling,Transportation (road and train),Gas,,,14.4
+input_Handling_Transp[4],Cost,Fuel,-,Fuel Handling,Transportation (road and train),Biomass,,,17.5
+input_Handling_Transp[5],Cost,Fuel,-,Fuel Handling,Transportation (road and train),Petrol-JP,,,13.1
+input_HydroPowerContentButton,,,,,,,,,0
+input_HydroPowerStorageYearBegin,,,,,,,,,0.5
+input_HydroPowerStorageYearEnd,,,,,,,,,0.5
+input_Interest,Cost,General,-,Interest Rate,-,-,%,,0.2
+input_Inv_Biogas,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Biogas Plant,Investment-per-Unit,Currency/Power,,3.01
+input_Inv_Boilers_dh,Cost,Investment and Fixed OM,Heat and Electricity,-,Boilers group 2 and 3,Investment-per-Unit,Currency/Power,,1.25
+input_Inv_Boilers_dh_gr1,Cost,Investment and Fixed OM,Heat and Electricity,-,DHP Boiler Group 1,Investment-per-Unit,Currency/Power,,1.22
+input_Inv_Boilers_indv,Cost,Investment and Fixed OM,Heat Infrastructure,-,Individual Boilers,Investment-per-Unit,Currency/Power,,4.01
+input_Inv_CHP2,Cost,Investment and Fixed OM,Heat and Electricity,-,Small CHP units,Investment-per-Unit,Currency/Power,,1.01
+input_Inv_CHP3,Cost,Investment and Fixed OM,Heat and Electricity,-,Large CHP units,Investment-per-Unit,Currency/Power,,1.04
+input_Inv_CHP_indv,Cost,Investment and Fixed OM,Heat Infrastructure,-,Individual CHP,Investment-per-Unit,Currency/Power,,4.04
+input_Inv_EB_indv,Cost,Investment and Fixed OM,Heat Infrastructure,-,Individual Electric Heat,Investment-per-Unit,Currency/Power,,4.1
+input_Inv_EHgr2gr3,Cost,Investment and Fixed OM,Heat and Electricity,-,Electric Boilers group 2 and 3,Investment-per-Unit,Currency/Power,,1.28
+input_Inv_Electrolyser,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Electrolyser,Investment-per-Unit,Currency/Power,,3.46
+input_Inv_Gasi,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Gasification Plant,Investment-per-Unit,Currency/Power,,3.04
+input_Inv_Geothermal,Cost,Investment and Fixed OM,Renewable Energy,-,Geothermal Electric,Investment-per-Unit,Currency/Unit,,2.31
+input_Inv_HP2,Cost,Investment and Fixed OM,Heat and Electricity,-,Heat Pump Group 2,Investment-per-Unit,Currency/Power,,1.16
+input_Inv_HP3,Cost,Investment and Fixed OM,Heat and Electricity,-,Heat Pump Group 3,Investment-per-Unit,Currency/Power,,1.19
+input_Inv_HP_indv,Cost,Investment and Fixed OM,Heat Infrastructure,-,Individual Heat Pump,Investment-per-Unit,Currency/Power,,4.07
+input_Inv_Heatstorage2,Cost,Investment and Fixed OM,Heat and Electricity,-,Heat Storage CHP,Investment-per-Unit,Currency/Power,,1.07
+input_Inv_Heatstorage3,Cost,Investment and Fixed OM,Renewable Energy,-,Solar Heat Storage,Investment-per-Unit,Currency/Unit,,2.4
+input_Inv_HydroPower,Cost,Investment and Fixed OM,Renewable Energy,-,Hydro Power,Investment-per-Unit,Currency/Unit,,2.22
+input_Inv_HydroPump,Cost,Investment and Fixed OM,Renewable Energy,-,Hydro Pump,Investment-per-Unit,Currency/Unit,,2.28
+input_Inv_HydroStorage,Cost,Investment and Fixed OM,Renewable Energy,-,Hydro Storage,Investment-per-Unit,Currency/Unit,,2.25
+input_Inv_HydrogenStorage,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Hydrogen Storage,Investment-per-Unit,Currency/Power,,3.49
+input_Inv_Nuclear,Cost,Investment and Fixed OM,Heat and Electricity,-,Nuclear,Investment-per-Unit,Currency/Power,,1.34
+input_Inv_PP,Cost,Investment and Fixed OM,Heat and Electricity,-,Large Power Pants,Investment-per-Unit,Currency/Power,,1.31
+input_Inv_PV,Cost,Investment and Fixed OM,Renewable Energy,-,Solar Photovoltaic,Investment-per-Unit,Currency/Unit,,2.07
+input_Inv_Pump,Cost,Investment and Fixed OM,Heat and Electricity,-,Charge el1 storage,Investment-per-Unit,Currency/Power,,1.4
+input_Inv_PumpStorage2,Cost,Investment and Fixed OM,Heat and Electricity,-,El2 storage capacity,Investment-per-Unit,Currency/Power,,1.55
+input_Inv_PumpStorage,Cost,Investment and Fixed OM,Heat and Electricity,-,El1 storage capacity,Investment-per-Unit,Currency/Power,,1.46
+input_Inv_RiverOffHydro,Cost,Investment and Fixed OM,Renewable Energy,-,River Hydro,Investment-per-Unit,Currency/Unit,,2.19
+input_Inv_SteamStorage,Cost,Investment and Fixed OM,Heat and Electricity,-,Rock Steam Storage,Investment-per-Unit,Currency/Power,,1.64
+input_Inv_Turbine,Cost,Investment and Fixed OM,Heat and Electricity,-,Discharge el1 storage,Investment-per-Unit,Currency/Power,,1.43
+input_Inv_Various10,Cost,Investment and Fixed OM,Additional,-,Various_10,Total Capital,Total,,8.3
+input_Inv_Various11,Cost,Investment and Fixed OM,Additional,-,Various_11,Total Capital,Total,,8.33
+input_Inv_Various12,Cost,Investment and Fixed OM,Additional,-,Various_12,Total Capital,Total,,8.36
+input_Inv_Various13,Cost,Investment and Fixed OM,Additional,-,Various_13,Total Capital,Total,,8.39
+input_Inv_Various14,Cost,Investment and Fixed OM,Additional,-,Various_14,Total Capital,Total,,8.42
+input_Inv_Various15,Cost,Investment and Fixed OM,Additional,-,Various_15,Total Capital,Total,,8.45
+input_Inv_Various16,Cost,Investment and Fixed OM,Additional,-,Various_16,Total Capital,Total,,8.48
+input_Inv_Various17,Cost,Investment and Fixed OM,Additional,-,Various_17,Total Capital,Total,,8.51
+input_Inv_Various18,Cost,Investment and Fixed OM,Additional,-,Various_18,Total Capital,Total,,8.54
+input_Inv_Various19,Cost,Investment and Fixed OM,Additional,-,Various_19,Total Capital,Total,,8.57
+input_Inv_Various1,Cost,Investment and Fixed OM,Additional,-,Various_1,Total Capital,Total,,8.03
+input_Inv_Various20,Cost,Investment and Fixed OM,Additional,-,Various_20,Total Capital,Total,,8.6
+input_Inv_Various2,Cost,Investment and Fixed OM,Additional,-,Various_2,Total Capital,Total,,8.06
+input_Inv_Various3,Cost,Investment and Fixed OM,Additional,-,Various_3,Total Capital,Total,,8.09
+input_Inv_Various4,Cost,Investment and Fixed OM,Additional,-,Various_4,Total Capital,Total,,8.12
+input_Inv_Various5,Cost,Investment and Fixed OM,Additional,-,Various_5,Total Capital,Total,,8.15
+input_Inv_Various6,Cost,Investment and Fixed OM,Additional,-,Various_6,Total Capital,Total,,8.18
+input_Inv_Various7,Cost,Investment and Fixed OM,Additional,-,Various_7,Total Capital,Total,,8.21
+input_Inv_Various8,Cost,Investment and Fixed OM,Additional,-,Various_8,Total Capital,Total,,8.24
+input_Inv_Various9,Cost,Investment and Fixed OM,Additional,-,Various_9,Total Capital,Total,,8.27
+input_Inv_Waste_CHP,Cost,Investment and Fixed OM,Heat and Electricity,-,Waste CHP,Investment-per-Unit,Currency/Power,,1.1
+input_Inv_Wave,Cost,Investment and Fixed OM,Renewable Energy,-,Wave Power,Investment-per-Unit,Currency/Unit,,2.1
+input_Inv_Wind,Cost,Investment and Fixed OM,Renewable Energy,-,Wind,Investment-per-Unit,Currency/Unit,,2.01
+input_Inv_WindOffshore,Cost,Investment and Fixed OM,Renewable Energy,-,Wind Offshore,Investment-per-Unit,Currency/Unit,,2.04
+input_Inv_absorp_HP,Cost,Investment and Fixed OM,Heat and Electricity,-,Absorption HP (Waste),Investment-per-Unit,Currency/Power,,1.13
+input_Inv_pump2,Cost,Investment and Fixed OM,Heat and Electricity,-,Charge el2 storage,Investment-per-Unit,Currency/Power,,1.49
+input_Inv_solar_dh,Cost,Investment and Fixed OM,Renewable Energy,-,Solar Thermal,Investment-per-Unit,Currency/Unit,,2.37
+input_Inv_solar_indv,Cost,Investment and Fixed OM,Heat Infrastructure,-,Individual Solar Thermal,Investment-per-Unit,Currency/Power,,4.13
+input_Inv_turbine2,Cost,Investment and Fixed OM,Heat and Electricity,-,Discharge el2 storage,Investment-per-Unit,Currency/Power,,1.52
+input_Maintain_price,,,,,,,,,0
+input_NaturalCooling_Chillers,,,,,,,,,0
+input_Nuclear_CH4,,,,,,,,,0
+input_Nuclear_N2O,,,,,,,,,0
+input_Nuclear_NO,,,,,,,,,0
+input_Nuclear_PM,,,,,,,,,0
+input_Nuclear_SO2,,,,,,,,,0
+input_PP_CH4,,,,,,,,,0
+input_PP_N2O,,,,,,,,,0
+input_PP_NO,,,,,,,,,0
+input_PP_PM,,,,,,,,,0
+input_PP_SO2,,,,,,,,,0
+input_Period_Biogas,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Biogas Plant,Period,Years,,3
+input_Period_Boilers_dh,Cost,Investment and Fixed OM,Heat and Electricity,-,Boilers group 2 and 3,Period,Years,,1
+input_Period_Boilers_dh_gr1,Cost,Investment and Fixed OM,Heat and Electricity,-,DHP Boiler Group 1,Period,Years,,1
+input_Period_Boilers_indv,Cost,Investment and Fixed OM,Heat Infrastructure,-,Individual Boilers,Period,Years,,4
+input_Period_CHP2,Cost,Investment and Fixed OM,Heat and Electricity,-,Small CHP units,Period,Years,,1
+input_Period_CHP3,Cost,Investment and Fixed OM,Heat and Electricity,-,Large CHP units,Period,Years,,1
+input_Period_CHP_indv,Cost,Investment and Fixed OM,Heat Infrastructure,-,Individual CHP,Period,Years,,4
+input_Period_EB_indv,Cost,Investment and Fixed OM,Heat Infrastructure,-,Individual Electric Heat,Period,Years,,4
+input_Period_EHgr2gr3,Cost,Investment and Fixed OM,Heat and Electricity,-,Electric Boilers group 2 and 3,Period,Years,,1
+input_Period_Electrolyser,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Electrolyser,Period,Years,,3
+input_Period_Gasi,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Gasification Plant,Period,Years,,3
+input_Period_Geothermal,Cost,Investment and Fixed OM,Renewable Energy,-,Geothermal Electric,Period,Years,,2
+input_Period_HP2,Cost,Investment and Fixed OM,Heat and Electricity,-,Heat Pump Group 2,Period,Years,,1
+input_Period_HP3,Cost,Investment and Fixed OM,Heat and Electricity,-,Heat Pump Group 3,Period,Years,,1
+input_Period_HP_indv,Cost,Investment and Fixed OM,Heat Infrastructure,-,Individual Heat Pump,Period,Years,,4
+input_Period_Heatstorage2,Cost,Investment and Fixed OM,Heat and Electricity,-,Heat Storage CHP,Period,Years,,1
+input_Period_Heatstorage3,Cost,Investment and Fixed OM,Renewable Energy,-,Solar Heat Storage,Period,Years,,2
+input_Period_HydroPower,Cost,Investment and Fixed OM,Renewable Energy,-,Hydro Power,Period,Years,,2
+input_Period_HydroPump,Cost,Investment and Fixed OM,Renewable Energy,-,Hydro Pump,Period,Years,,2
+input_Period_HydroStorage,Cost,Investment and Fixed OM,Renewable Energy,-,Hydro Storage,Period,Years,,2
+input_Period_HydrogenStorage,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Hydrogen Storage,Period,Years,,3
+input_Period_Nuclear,Cost,Investment and Fixed OM,Heat and Electricity,-,Nuclear,Period,Years,,1
+input_Period_PP,Cost,Investment and Fixed OM,Heat and Electricity,-,Large Power Pants,Period,Years,,1
+input_Period_PV,Cost,Investment and Fixed OM,Renewable Energy,-,Solar Photovoltaic,Period,Years,,2
+input_Period_Pump,Cost,Investment and Fixed OM,Heat and Electricity,-,Charge el1 storage,Period,Years,,1
+input_Period_PumpStorage2,Cost,Investment and Fixed OM,Heat and Electricity,-,El2 storage capacity,Period,Years,,1
+input_Period_PumpStorage,Cost,Investment and Fixed OM,Heat and Electricity,-,El1 storage capacity,Period,Years,,1
+input_Period_RiverOffHydro,Cost,Investment and Fixed OM,Renewable Energy,-,River Hydro,Period,Years,,2
+input_Period_SteamStorage,Cost,Investment and Fixed OM,Heat and Electricity,-,Rock Steam Storage,Period,Years,,1
+input_Period_Turbine,Cost,Investment and Fixed OM,Heat and Electricity,-,Discharge el1 storage,Period,Years,,1
+input_Period_Various10,Cost,Investment and Fixed OM,Additional,-,Various_10,Period,Years,,8
+input_Period_Various11,Cost,Investment and Fixed OM,Additional,-,Various_11,Period,Years,,8
+input_Period_Various12,Cost,Investment and Fixed OM,Additional,-,Various_12,Period,Years,,8
+input_Period_Various13,Cost,Investment and Fixed OM,Additional,-,Various_13,Period,Years,,8
+input_Period_Various14,Cost,Investment and Fixed OM,Additional,-,Various_14,Period,Years,,8
+input_Period_Various15,Cost,Investment and Fixed OM,Additional,-,Various_15,Period,Years,,8
+input_Period_Various16,Cost,Investment and Fixed OM,Additional,-,Various_16,Period,Years,,8
+input_Period_Various17,Cost,Investment and Fixed OM,Additional,-,Various_17,Period,Years,,8
+input_Period_Various18,Cost,Investment and Fixed OM,Additional,-,Various_18,Period,Years,,8
+input_Period_Various19,Cost,Investment and Fixed OM,Additional,-,Various_19,Period,Years,,8
+input_Period_Various1,Cost,Investment and Fixed OM,Additional,-,Various_1,Period,Years,,8
+input_Period_Various20,Cost,Investment and Fixed OM,Additional,-,Various_20,Period,Years,,8
+input_Period_Various2,Cost,Investment and Fixed OM,Additional,-,Various_2,Period,Years,,8
+input_Period_Various3,Cost,Investment and Fixed OM,Additional,-,Various_3,Period,Years,,8
+input_Period_Various4,Cost,Investment and Fixed OM,Additional,-,Various_4,Period,Years,,8
+input_Period_Various5,Cost,Investment and Fixed OM,Additional,-,Various_5,Period,Years,,8
+input_Period_Various6,Cost,Investment and Fixed OM,Additional,-,Various_6,Period,Years,,8
+input_Period_Various7,Cost,Investment and Fixed OM,Additional,-,Various_7,Period,Years,,8
+input_Period_Various8,Cost,Investment and Fixed OM,Additional,-,Various_8,Period,Years,,8
+input_Period_Various9,Cost,Investment and Fixed OM,Additional,-,Various_9,Period,Years,,8
+input_Period_Waste_CHP,Cost,Investment and Fixed OM,Heat and Electricity,-,Waste CHP,Period,Years,,1
+input_Period_Wave,Cost,Investment and Fixed OM,Renewable Energy,-,Wave Power,Period,Years,,2
+input_Period_Wind,Cost,Investment and Fixed OM,Renewable Energy,-,Wind,Period,Years,,2
+input_Period_WindOffshore,Cost,Investment and Fixed OM,Renewable Energy,-,Wind Offshore,Period,Years,,2
+input_Period_absorp_HP,Cost,Investment and Fixed OM,Heat and Electricity,-,Absorption HP (Waste),Period,Years,,1
+input_Period_pump2,Cost,Investment and Fixed OM,Heat and Electricity,-,Charge el2 storage,Period,Years,,1
+input_Period_solar_dh,Cost,Investment and Fixed OM,Renewable Energy,-,Solar Thermal,Period,Years,,2
+input_Period_solar_indv,Cost,Investment and Fixed OM,Heat Infrastructure,-,Individual Solar Thermal,Period,Years,,4
+input_Period_turbine2,Cost,Investment and Fixed OM,Heat and Electricity,-,Discharge el2 storage,Period,Years,,1
+input_RSC_Coal,,,,,,,,,0
+input_RSC_eff_elec_M1,,,,,,,,,0.1
+input_RSC_eff_elec_M2,,,,,,,,,0.2
+input_RSC_eff_fuel_M1,,,,,,,,,0.6
+input_RSC_eff_fuel_M2,,,,,,,,,0.2
+input_RSC_eff_th_M1,,,,,,,,,0.2
+input_RSC_eff_th_M2,,,,,,,,,0.5
+input_Tax_Boiler[1],Cost,Fuel,-,Fuel Taxes,Boilers (CHP and DH),Coal,,,10.6
+input_Tax_Boiler[2],Cost,Fuel,-,Fuel Taxes,Boilers (CHP and DH),FuelOil,,,11.4
+input_Tax_Boiler[3],Cost,Fuel,-,Fuel Taxes,Boilers (CHP and DH),Gas,,,14.7
+input_Tax_Boiler[4],Cost,Fuel,-,Fuel Taxes,Boilers (CHP and DH),Biomass,,,17.8
+input_Tax_Boiler[9],Cost,Fuel,-,Fuel Taxes,Boilers (CHP and DH),Waste,,,16.4
+input_Tax_CAES,Cost,Fuel,-,Fuel Taxes,Compressed Air Energy Storage,Gas,,,14.9
+input_Tax_CHP[1],Cost,Fuel,-,Fuel Taxes,CHP Units,Coal,,,10.7
+input_Tax_CHP[2],Cost,Fuel,-,Fuel Taxes,CHP Units,FuelOil,,,11.5
+input_Tax_CHP[3],Cost,Fuel,-,Fuel Taxes,CHP Units,Gas,,,14.8
+input_Tax_CHP[4],Cost,Fuel,-,Fuel Taxes,CHP Units,Biomass,,,17.9
+input_Tax_CHP[9],Cost,Fuel,-,Fuel Taxes,CHP Units,Waste,,,16.5
+input_Tax_Indu[1],Cost,Fuel,-,Fuel Taxes,Industry,Coal,,,10.5
+input_Tax_Indu[2],Cost,Fuel,-,Fuel Taxes,Industry,FuelOil,,,11.3
+input_Tax_Indu[3],Cost,Fuel,-,Fuel Taxes,Industry,Gas,,,14.6
+input_Tax_Indu[4],Cost,Fuel,-,Fuel Taxes,Industry,Biomass,,,17.7
+input_Tax_Indu[9],Cost,Fuel,-,Fuel Taxes,Industry,Waste,,,16.3
+input_Tax_Indv[1],Cost,Fuel,-,Fuel Taxes,Individual Households,Coal,,,10.4
+input_Tax_Indv[2],Cost,Fuel,-,Fuel Taxes,Individual Households,Diesel-Gasoil,,,12.3
+input_Tax_Indv[3],Cost,Fuel,-,Fuel Taxes,Individual Households,Gas,,,14.5
+input_Tax_Indv[4],Cost,Fuel,-,Fuel Taxes,Individual Households,Biomass,,,17.6
+input_Tax_PumpCAES,Cost,Fuel,-,Taxes on Electricity for Energy Conversion,,DH Systems,,,71
+input_V2G_Battery,,,,,,,,,6.6
+input_VC_HydroPump,Cost,Variable OM,-,Storage,Hydro Pump,-,Currency/Energy,,9.14
+input_VC_RSC_M1,Cost,Variable OM,-,Power Plants,GTL M1,-,Currency/Energy,,9.08
+input_VC_RSC_M2,Cost,Variable OM,-,Power Plants,GTL M2,-,Currency/Energy,,9.09
+input_VC_SteamStorage,Cost,Variable OM,-,Storage,Steam Storage,-,Currency/Energy,,11
+input_VC_V2G,Cost,Variable OM,-,Storage,V2G Discharge,-,Currency/Energy,,9.13
+input_VC_boiler_dh,Cost,Variable OM,-,District Heating and CHP systems,Boilers ,-,Currency/Energy,,9.01
+input_VC_boiler_indv,Cost,Variable OM,-,Individual,Boilers ,-,Currency/Energy,,9.16
+input_VC_chp_dh,Cost,Variable OM,-,District Heating and CHP systems,CHP Units,-,Currency/Energy,,9.02
+input_VC_chp_indv,Cost,Variable OM,-,Individual,CHP,-,Currency/Energy,,9.17
+input_VC_eh_indv,Cost,Variable OM,-,Individual,Electric Heating,-,Currency/Energy,,9.19
+input_VC_electrolyser,Cost,Variable OM,-,Storage,Electrolyser,-,Currency/Energy,,9.1
+input_VC_geothermal,Cost,Variable OM,-,Power Plants,Geothermal ,-,Currency/Energy,,9.07
+input_VC_hp_dh,Cost,Variable OM,-,District Heating and CHP systems,Heat Pump,-,Currency/Energy,,9.03
+input_VC_hp_indv,Cost,Variable OM,-,Individual,Heat Pump,-,Currency/Energy,,9.18
+input_VC_hydro,Cost,Variable OM,-,Power Plants,Hydro Power,-,Currency/Energy,,9.05
+input_VC_pp,Cost,Variable OM,-,Power Plants,Condensing,-,Currency/Energy,,9.06
+input_VC_pump,Cost,Variable OM,-,Storage,Pump,-,Currency/Energy,,9.11
+input_VC_turbine,Cost,Variable OM,-,Storage,Turbine,-,Currency/Energy,,9.12
+input_Waste_CH4,,,,,,,,,0
+input_Waste_N2O,,,,,,,,,0
+input_Waste_NO,,,,,,,,,0
+input_Waste_PM,,,,,,,,,0
+input_Waste_SO2,,,,,,,,,0
+input_button_BiogasBiomassOutput,,,,,,,,,Biogas
+input_button_add2,,,,,,,,,No
+input_button_add_subtract,,,,,,,,,No
+input_depend_fac,Cost,External Electricity Market,-,External Electricity Market response,Price Elasticity,-,Currency-Power/Energy,,11
+input_dh_demand_TWh,,,,,,,,,0
+input_eff_ELTBiogas_fuel,,,,,,,,,0.73
+input_eff_ELTBiomass_fuel,,,,,,,,,0.73
+input_eff_ELTCO2_fuel,,,,,,,,,0.73
+input_eff_ELTIndustry_fuel,,,,,,,,,0.73
+input_exp_chp_reg_fac,,,,,,,,,9999
+input_exp_hp_reg_fac,,,,,,,,,9999
+input_exp_pp_reg_fac,,,,,,,,,9999
+input_fuel_Transport[4],,,,,,,,,0
+input_fuel_price[10],Cost,Fuel,-,Fuel Price,Basic,Dry Biomass,,,18
+input_fuel_price[11],Cost,Fuel,-,Fuel Price,Basic,Wet Biomass,,,19
+input_fuel_price[12],Cost,Fuel,-,Fuel Price,Basic,Nuclear-Uranium,,,20
+input_fuel_price[1],Cost,Fuel,-,Fuel Price,Basic,Coal,,,10
+input_fuel_price[2],Cost,Fuel,-,Fuel Price,Basic,FuelOil,,,11
+input_fuel_price[3],Cost,Fuel,-,Fuel Price,Basic,Gas,,,14
+input_fuel_price[4],Cost,Fuel,-,Fuel Price,Basic,Biomass,,,17
+input_fuel_price[5],Cost,Fuel,-,Fuel Price,Basic,Diesel-Gasoil,,,12
+input_fuel_price[6],Cost,Fuel,-,Fuel Price,Basic,Petrol-JP,,,13
+input_fuel_price[8],Cost,Fuel,-,Fuel Price,Basic,LPG,,,15
+input_fuel_price[9],Cost,Fuel,-,Fuel Price,Basic,Waste,,,16
+input_fuel_price_alt1[10],Cost,Fuel,-,Fuel Price,Alternative_1,Dry Biomass,,,180
+input_fuel_price_alt1[11],Cost,Fuel,-,Fuel Price,Alternative_1,Wet Biomass,,,190
+input_fuel_price_alt1[12],Cost,Fuel,-,Fuel Price,Alternative_1,Nuclear-Uranium,,,200
+input_fuel_price_alt1[1],Cost,Fuel,-,Fuel Price,Alternative_1,Coal,,,100
+input_fuel_price_alt1[2],Cost,Fuel,-,Fuel Price,Alternative_1,FuelOil,,,110
+input_fuel_price_alt1[3],Cost,Fuel,-,Fuel Price,Alternative_1,Gas,,,140
+input_fuel_price_alt1[4],Cost,Fuel,-,Fuel Price,Alternative_1,Biomass,,,170
+input_fuel_price_alt1[5],Cost,Fuel,-,Fuel Price,Alternative_1,Diesel-Gasoil,,,120
+input_fuel_price_alt1[6],Cost,Fuel,-,Fuel Price,Alternative_1,Petrol-JP,,,130
+input_fuel_price_alt1[8],Cost,Fuel,-,Fuel Price,Alternative_1,LPG,,,150
+input_fuel_price_alt1[9],Cost,Fuel,-,Fuel Price,Alternative_1,Waste,,,160
+input_fuel_price_alt2[10],Cost,Fuel,-,Fuel Price,Alternative_2,Dry Biomass,,,1800
+input_fuel_price_alt2[11],Cost,Fuel,-,Fuel Price,Alternative_2,Wet Biomass,,,1900
+input_fuel_price_alt2[12],Cost,Fuel,-,Fuel Price,Alternative_2,Nuclear-Uranium,,,2000
+input_fuel_price_alt2[1],Cost,Fuel,-,Fuel Price,Alternative_2,Coal,,,1000
+input_fuel_price_alt2[2],Cost,Fuel,-,Fuel Price,Alternative_2,FuelOil,,,1100
+input_fuel_price_alt2[3],Cost,Fuel,-,Fuel Price,Alternative_2,Gas,,,1400
+input_fuel_price_alt2[4],Cost,Fuel,-,Fuel Price,Alternative_2,Biomass,,,1700
+input_fuel_price_alt2[5],Cost,Fuel,-,Fuel Price,Alternative_2,Diesel-Gasoil,,,1200
+input_fuel_price_alt2[6],Cost,Fuel,-,Fuel Price,Alternative_2,Petrol-JP,,,1300
+input_fuel_price_alt2[8],Cost,Fuel,-,Fuel Price,Alternative_2,LPG,,,1500
+input_fuel_price_alt2[9],Cost,Fuel,-,Fuel Price,Alternative_2,Waste,,,1600
+input_hp_maxload2,,,,,,,,,0.5
+input_hp_maxload,,,,,,,,,0.5
+input_hydro_pump_cap,,,,,,,,,0
+input_hydro_pump_eff,,,,,,,,,0.9
+input_hydro_storage,,,,,,,,,0
+input_imp_reg_fac,,,,,,,,,0
+input_import_bottleneck_addprice_factor,Cost,External Electricity Market,-,External Electricity Market response,Basic Price Level,-,Currency/Energy,,11
+input_inv_htl,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,HTL,Investment-per-Unit,Currency/Unit,,11
+input_inv_pyr,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Pyrolosis,Investment-per-Unit,Currency/Unit,,11
+input_keol_reg,Balancing and Storage,Electricity,,Critical Excess Electricity Production (CEEP),CEEP Regulation: Write number:,Regulation strategies,int,,0
+input_km_LPG,,,,,,,,,1.5
+input_km_biomass,,,,,,,,,1.5
+input_km_diesel,,,,,,,,,1.5
+input_km_ev,,,,,,,,,5
+input_km_h2,,,,,,,,,3
+input_km_ngas,,,,,,,,,1.5
+input_km_petrol,,,,,,,,,1.5
+input_km_v2g,,,,,,,,,5
+input_km_waste,,,,,,,,,1.5
+input_lost_value,,,,,,,,,0
+input_marketmodel,,,,,,,,,1
+input_nordpool_add_fac,Cost,External Electricity Market,-,External Electricity Market Definition,Addition Factor,-,Currency/Energy,,11
+input_nordpool_mult_fac,Cost,External Electricity Market,-,External Electricity Market Definition,Multiplication Factor,-,Scalar,,11
+input_period_htl,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,HTL,Period,Years,,11
+input_period_pyr,Cost,Investment and Fixed OM,Liquid and Gas Fuels,-,Pyrolosis,Period,Years,,11
+input_regulation,,,,,,,,,1
+input_rockbed_reg,,,,,,,,,1
+notes_developed_yearText,,,,,,,,,
+notes_model_areaText,,,,,,,,,
+notes_model_yearText,,,,,,,,,
+other_vehicles1Text,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_1,Text-Label,,,OTHER_VECHILES_1
+other_vehicles2Text,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_2,Text-Label,,,OTHER_VECHILES_2
+other_vehicles3Text,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_3,Text-Label,,,OTHER_VECHILES_3
+other_vehicles4Text,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_4,Text-Label,,,OTHER_VECHILES_4
+other_vehicles5Text,Cost,Investment and Fixed OM,Other Vehicles,-,Other_Vehicles_5,Text-Label,,,OTHER_VECHILES_5
+EnergyPLAN version,,,,,,,,,16.2

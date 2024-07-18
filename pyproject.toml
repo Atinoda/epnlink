@@ -1,0 +1,26 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epnlink"
+version = "0.0.7"
+description = "Python interface to EnergyPLAN - Advanced energy system analysis computer model"
+readme = "README.md"
+authors = [{ name = "Ché Cameron", email = "research@checameron.com" }]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator"
+]
+keywords = ["energyplan", "parse", "energy"]
+dependencies = [
+    "pandas",
+    "numpy",
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/Atinoda/epnlink"
